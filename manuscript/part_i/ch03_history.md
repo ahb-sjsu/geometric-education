@@ -1,4 +1,4 @@
-# Chapter 3: From Socratic Dialogue to Scantron — A Brief History of Scalar Education
+# Chapter 3: From Socratic Dialogue to Scantron --- A Brief History of Scalar Education
 
 *Part I: The Problem*
 

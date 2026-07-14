@@ -82,7 +82,7 @@ A Japanese mathematics classroom emphasizes productive struggle: students are ex
 
 Finnish education emphasizes equity: class sizes are small, support services are extensive, and the metric inequality between populations is reduced by policy design. The Finnish metric is more uniform across students than the American metric --- closer to the flat-space assumption that most curricula implicitly make.
 
-The framework can accommodate this variation: the metric is a empirically estimated quantity, and different educational cultures produce different metrics. But the variation itself has not been mapped, and the comparison across cultures would require multi-cultural assessment instruments that do not yet exist.
+The framework can accommodate this variation: the metric is an empirically estimated quantity, and different educational cultures produce different metrics. But the variation itself has not been mapped, and the comparison across cultures would require multi-cultural assessment instruments that do not yet exist.
 
 ## 18.8 Alex as Teacher
 
