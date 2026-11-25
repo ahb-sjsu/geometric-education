@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 10: Personalized Learning as Metric Adaptation &mdash; Geometric Education</title>
   <meta name="description" content="Chapter 10: Personalized Learning as Metric Adaptation from Geometric Education: Learning, Assessment, and the Topology of Understanding, by Andrew H. Bond.">
+  <meta name="generator" content="geometric-series build kit">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../book/book.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 
-<body data-book-slug="geometric-education">
+<body data-book-slug="geometric-education" data-chapter-id="ch10_personalized_learning">
   <nav id="main-nav">
     <div class="nav-inner">
       <a href="../index.html" class="nav-brand">
@@ -36,6 +37,11 @@
         <span class="breadcrumb-sep">&rsaquo;</span>
         <span class="breadcrumb-current">Chapter 10: Personalized Learning as Metric Adaptation</span>
       </nav>
+      <div class="chapter-nav-top">
+        <a href="ch09_gauge_invariance.html" class="nav-prev">&larr; Chapter 9: The Gauge Invariance of Understanding</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch11_transfer_learning.html" class="nav-next">Chapter 11: Transfer Learning as Parallel Transport &rarr;</a>
+      </div>
 
       <div class="chapter-content">
 <h1 id="chapter-10-personalized-learning-as-metric-adaptation">Chapter 10: Personalized Learning as Metric Adaptation</h1>
@@ -128,11 +134,20 @@
 <h2 id="summary">Summary</h2>
 <p>This chapter has developed personalized learning as metric adaptation on the learner manifold. Each student has a different metric, and the optimal learning path depends on the student&rsquo;s individual metric. One-size-fits-all instruction assumes a uniform metric that fails for most students. Adaptive learning systems are metric estimators that infer the student&rsquo;s local curvature from observed trajectories and adjust the learning path accordingly. The cold-start problem (unknown metric for a new student) is the exploration-exploitation trade-off. Personalization fails when the metric estimate is wrong, when the adaptive system collapses to one-dimensional estimation, or when the system optimizes for student satisfaction rather than learning (sycophancy). The full metric adaptation pipeline &mdash; estimation, geodesic computation, execution, update, rerouting &mdash; describes what adaptive systems should do; the gap between the framework and current practice is the engineering challenge.</p>
 <hr />
-<p>[^1]: Cronbach, L. J. (1957). The two disciplines of scientific psychology. <em>American Psychologist</em>, 12(11), 671&ndash;684. Cronbach&rsquo;s call for an &ldquo;aptitude-treatment interaction&rdquo; (ATI) research program is the historical precursor to metric-adaptive personalization.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Cronbach, L. J. (1957). The two disciplines of scientific psychology. <em>American Psychologist</em>, 12(11), 671&ndash;684. Cronbach&rsquo;s call for an &ldquo;aptitude-treatment interaction&rdquo; (ATI) research program is the historical precursor to metric-adaptive personalization.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
       </div>
 
       <div class="chapter-nav-bottom">
-        <a href="index.html" class="nav-toc">&larr; Contents</a>
+        <a href="ch09_gauge_invariance.html" class="nav-prev">&larr; Chapter 9: The Gauge Invariance of Understanding</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch11_transfer_learning.html" class="nav-next">Chapter 11: Transfer Learning as Parallel Transport &rarr;</a>
       </div>
     </div>
   </article>
@@ -160,6 +175,7 @@
         {left: '\\\\(', right: '\\\\)', display: false},
         {left: '\\\\[', right: '\\\\]', display: true}
       ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
       throwOnError: false
     });"></script>
 </body>

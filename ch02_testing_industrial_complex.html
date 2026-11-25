@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 2: The Testing Industrial Complex &mdash; Geometric Education</title>
   <meta name="description" content="Chapter 2: The Testing Industrial Complex from Geometric Education: Learning, Assessment, and the Topology of Understanding, by Andrew H. Bond.">
+  <meta name="generator" content="geometric-series build kit">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../book/book.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 
-<body data-book-slug="geometric-education">
+<body data-book-slug="geometric-education" data-chapter-id="ch02_testing_industrial_complex">
   <nav id="main-nav">
     <div class="nav-inner">
       <a href="../index.html" class="nav-brand">
@@ -36,6 +37,11 @@
         <span class="breadcrumb-sep">&rsaquo;</span>
         <span class="breadcrumb-current">Chapter 2: The Testing Industrial Complex</span>
       </nav>
+      <div class="chapter-nav-top">
+        <a href="ch01_gpa_trap.html" class="nav-prev">&larr; Chapter 1: The GPA Trap</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch03_history.html" class="nav-next">Chapter 3: From Socratic Dialogue to Scantron --- A Brief Hi… &rarr;</a>
+      </div>
 
       <div class="chapter-content">
 <h1 id="chapter-2-the-testing-industrial-complex">Chapter 2: The Testing Industrial Complex</h1>
@@ -70,7 +76,7 @@
 <p>The SAT loads heavily on $d_1$ (domain knowledge, specifically recognition-type knowledge testable in multiple-choice format), moderately on a narrow band of $d_2$ (test-taking procedural skill), and negligibly on $d_3$ through $d_6$. The projection direction is dominated by $d_1$. The kernel of the projection &mdash; the set of learner-state differences that are invisible to the SAT &mdash; is a five-dimensional subspace containing most of $d_2$ through $d_6$.</p>
 <p>The preimage of any SAT score is a five-dimensional hyperplane in the learner manifold. All learner states on this hyperplane produce the same SAT score. The number of qualitatively different learner profiles consistent with, say, a score of 1200 is immense. The SAT score does not distinguish between them.</p>
 <h2 id="22-test-prep-as-metric-gaming">2.2 Test Prep as Metric Gaming</h2>
-<p>The test preparation industry is worth approximately $10 billion annually in the United States.[^1] Companies like Kaplan, Princeton Review, and their digital successors promise SAT score improvements of 100&ndash;200 points through systematic preparation. The geometric framework explains exactly what they are doing &mdash; and what they are not doing.</p>
+<p>The test preparation industry is worth approximately $10 billion annually in the United States.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> Companies like Kaplan, Princeton Review, and their digital successors promise SAT score improvements of 100&ndash;200 points through systematic preparation. The geometric framework explains exactly what they are doing &mdash; and what they are not doing.</p>
 <h3 id="221-movement-along-the-fiber">2.2.1 Movement Along the Fiber</h3>
 <p>Recall from Chapter 1 that the preimage of a SAT score is a five-dimensional fiber in the learner manifold. Test preparation moves the student along a direction that increases the projection value (the SAT score) without necessarily moving the student&rsquo;s base position on the manifold (their actual understanding).</p>
 <p>A student who learns to eliminate obvious wrong answers (a test-taking strategy, not a content skill) moves along a direction that has high projection onto $\mathbf{w}_{\text{SAT}}$ but low magnitude on the actual dimensions of understanding. The student&rsquo;s SAT score increases. The student&rsquo;s learner state barely changes. This is motion along the fiber: the projection changes, the base point does not.</p>
@@ -127,7 +133,7 @@
 <p>By 2024, approximately 80% of four-year institutions in the United States had adopted test-optional policies for at least one admissions cycle. The immediate effect was a sharp decline in the number of students submitting test scores: at many institutions, only 50&ndash;60% of applicants submitted scores, down from near-universal submission.</p>
 <p>The demographic composition of the non-submitting group was predictable from the geometric framework: students from lower-SES backgrounds, first-generation students, students from under-resourced schools, and underrepresented minority students were disproportionately likely to withhold scores. These are the students whose strengths are concentrated on non-tested dimensions ($d_2$ through $d_6$) and whose test scores are depressed by gauge violations (differential access to test preparation, differential familiarity with test format, differential impact of testing conditions).</p>
 <h3 id="262-what-the-data-showed">2.6.2 What the Data Showed</h3>
-<p>Several large-scale studies examined the academic performance of students admitted without test scores. The findings were consistent: students admitted without test scores performed comparably to students admitted with test scores, as measured by first-year GPA, retention rates, and four-year graduation rates.[^2]</p>
+<p>Several large-scale studies examined the academic performance of students admitted without test scores. The findings were consistent: students admitted without test scores performed comparably to students admitted with test scores, as measured by first-year GPA, retention rates, and four-year graduation rates.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
 <p>The geometric interpretation is straightforward. If the SAT primarily measures $d_1$ (domain recognition), and if first-year GPA also primarily measures $d_1$ (domain recall on exams), then removing the SAT from the admissions equation and replacing it with other indicators (high school GPA, essays, recommendations &mdash; which may capture more of $d_2$ through $d_6$) does not degrade the prediction of first-year GPA much, because other indicators also predict $d_1$. The SAT is a redundant projection in the same direction as other available signals.</p>
 <p>But the more interesting finding is that non-submitting students &mdash; the students whose SAT scores would have been low &mdash; perform comparably on the outcome measures despite their predicted underperformance on the SAT. This is consistent with the geometric framework: these students occupy learner states that are distant from the SAT&rsquo;s projection direction but not from the directions that matter for academic success. Their strengths ($d_2$, $d_3$, $d_4$, $d_5$) compensate for their weakness on the tested dimension ($d_1$), and the compensation is visible in their college performance even though it was invisible to the SAT.</p>
 <h3 id="263-the-backlash">2.6.3 The Backlash</h3>
@@ -148,12 +154,23 @@
 <h2 id="summary">Summary</h2>
 <p>This chapter has examined the standardized testing industry as an institutionalized system of scalar contraction. The SAT projects a six-dimensional learner state onto a one-dimensional score, discarding procedural skill, metacognitive awareness, motivation, transfer ability, and creativity. The $10 billion test preparation industry profits from the gap between projection optimization and actual learning. The psychometric defenses of standardized testing &mdash; reliability, validity, fairness &mdash; are technically sound within the scalar framework and geometrically inadequate from the manifold perspective. The post-COVID natural experiment in test-optional admissions provided evidence that SAT scores are partially redundant with other available signals and that students admitted without scores perform comparably on scalar outcomes. The geometric framework explains why: the SAT is a redundant projection along a direction that other indicators also capture, and its unique contribution is screening convenience rather than diagnostic insight.</p>
 <hr />
-<p>[^1]: Exact figures for the test preparation industry are difficult to verify because many providers are privately held. The $10 billion estimate includes test prep courses, private tutoring, practice materials, and online preparation platforms. IBISWorld and MarketWatch have published estimates in this range.</p>
-<p>[^2]: Belasco, A. S., Rosinger, K. O., &amp; Hearn, J. C. (2015). The test-optional movement at America&rsquo;s selective liberal arts colleges. <em>Educational Evaluation and Policy Analysis</em>, 37(2), 206&ndash;223. More recent data from the Common Application (2023) confirms the trend: test-optional admits show negligible differences in first-year academic performance relative to test-submitting admits, controlling for other application variables.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Exact figures for the test preparation industry are difficult to verify because many providers are privately held. The $10 billion estimate includes test prep courses, private tutoring, practice materials, and online preparation platforms. IBISWorld and MarketWatch have published estimates in this range.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Belasco, A. S., Rosinger, K. O., &amp; Hearn, J. C. (2015). The test-optional movement at America&rsquo;s selective liberal arts colleges. <em>Educational Evaluation and Policy Analysis</em>, 37(2), 206&ndash;223. More recent data from the Common Application (2023) confirms the trend: test-optional admits show negligible differences in first-year academic performance relative to test-submitting admits, controlling for other application variables.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
       </div>
 
       <div class="chapter-nav-bottom">
-        <a href="index.html" class="nav-toc">&larr; Contents</a>
+        <a href="ch01_gpa_trap.html" class="nav-prev">&larr; Chapter 1: The GPA Trap</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch03_history.html" class="nav-next">Chapter 3: From Socratic Dialogue to Scantron --- A Brief Hi… &rarr;</a>
       </div>
     </div>
   </article>
@@ -181,6 +198,7 @@
         {left: '\\\\(', right: '\\\\)', display: false},
         {left: '\\\\[', right: '\\\\]', display: true}
       ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
       throwOnError: false
     });"></script>
 </body>

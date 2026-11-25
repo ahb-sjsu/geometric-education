@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 4: The Learner Manifold &mdash; Geometric Education</title>
   <meta name="description" content="Chapter 4: The Learner Manifold from Geometric Education: Learning, Assessment, and the Topology of Understanding, by Andrew H. Bond.">
+  <meta name="generator" content="geometric-series build kit">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../book/book.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 
-<body data-book-slug="geometric-education">
+<body data-book-slug="geometric-education" data-chapter-id="ch04_learner_manifold">
   <nav id="main-nav">
     <div class="nav-inner">
       <a href="../index.html" class="nav-brand">
@@ -36,6 +37,11 @@
         <span class="breadcrumb-sep">&rsaquo;</span>
         <span class="breadcrumb-current">Chapter 4: The Learner Manifold</span>
       </nav>
+      <div class="chapter-nav-top">
+        <a href="ch03_history.html" class="nav-prev">&larr; Chapter 3: From Socratic Dialogue to Scantron --- A Brief Hi…</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch05_assessment_contraction.html" class="nav-next">Chapter 5: Assessment as Contraction --- The GPA Irrecoverab… &rarr;</a>
+      </div>
 
       <div class="chapter-content">
 <h1 id="chapter-4-the-learner-manifold">Chapter 4: The Learner Manifold</h1>
@@ -72,7 +78,7 @@
 <p><strong>Attribute value:</strong> $d_2 \in [0, 1]$, where 0 = no procedural skill and 1 = expert-level execution.</p>
 <h3 id="423-math28-metacognitive-awareness">4.2.3 $d_3$: Metacognitive Awareness</h3>
 <p>Knowledge of one&rsquo;s own learning processes, calibration of confidence, ability to monitor comprehension, and capacity to adjust strategy. This is the &ldquo;learning to learn&rdquo; dimension &mdash; the meta-level awareness that enables a learner to evaluate their own understanding, recognize when they are confused, seek help effectively, and choose appropriate study strategies.</p>
-<p>$d_3$ is the most powerful predictor of long-term academic success among the six dimensions.[^1] A student with moderate $d_1$ and high $d_3$ can identify their knowledge gaps, seek targeted instruction, and self-correct &mdash; their trajectory on the manifold is self-guided. A student with high $d_1$ and low $d_3$ may have extensive knowledge but no awareness of what they do not know &mdash; their trajectory is unguided, and they are vulnerable to overconfidence (the Dunning-Kruger effect, geometrized as a miscalibrated heuristic function).</p>
+<p>$d_3$ is the most powerful predictor of long-term academic success among the six dimensions.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> A student with moderate $d_1$ and high $d_3$ can identify their knowledge gaps, seek targeted instruction, and self-correct &mdash; their trajectory on the manifold is self-guided. A student with high $d_1$ and low $d_3$ may have extensive knowledge but no awareness of what they do not know &mdash; their trajectory is unguided, and they are vulnerable to overconfidence (the Dunning-Kruger effect, geometrized as a miscalibrated heuristic function).</p>
 <p>$d_3$ is almost entirely invisible to scalar assessment. No standardized test measures metacognitive calibration. No GPA captures a student&rsquo;s ability to self-monitor. The few instruments that exist (the Metacognitive Awareness Inventory, the Learning and Study Strategies Inventory) are self-report questionnaires, not performance assessments, and they are not integrated into any scalar grading system.</p>
 <p><strong>Attribute value:</strong> $d_3 \in [0, 1]$, where 0 = no metacognitive awareness (no ability to self-monitor or self-correct) and 1 = expert-level self-regulation and calibration.</p>
 <h3 id="424-math36-motivation-and-engagement">4.2.4 $d_4$: Motivation and Engagement</h3>
@@ -149,7 +155,7 @@
 <p><strong>Definition 4.3 (Educational Boundary).</strong> <em>An educational boundary is a threshold on $\mathcal{L}$ where the learner&rsquo;s accessible region changes discontinuously. Three types of boundaries are defined:</em></p>
 <ol>
 <li>
-<p><em>Prerequisite boundaries: A region of the manifold is inaccessible until the student&rsquo;s state on certain dimensions exceeds a threshold. &ldquo;Linear algebra required&rdquo; means the region of the manifold labeled &ldquo;quantum mechanics&rdquo; is inaccessible until $d_1(\text{linear algebra}) > \theta_{\text{prereq}}$.</em></p>
+<p><em>Prerequisite boundaries: A region of the manifold is inaccessible until the student&rsquo;s state on certain dimensions exceeds a threshold. &ldquo;Linear algebra required&rdquo; means the region of the manifold labeled &ldquo;quantum mechanics&rdquo; is inaccessible until $d_1(\text{linear algebra}) &gt; \theta_{\text{prereq}}$.</em></p>
 </li>
 <li>
 <p><em>Institutional boundaries: Boundaries imposed by educational institutions rather than by the knowledge structure itself. &ldquo;Must have completed 60 units to declare a major&rdquo; is an institutional boundary. &ldquo;Must have a 3.0 GPA to remain in the honors program&rdquo; is an institutional boundary expressed as a scalar threshold on a projected value.</em></p>
@@ -246,11 +252,20 @@
 <p>This chapter has constructed the learner manifold $\mathcal{L}$ &mdash; the domain-specific manifold for the geometric framework of education. The construction proceeds through six core dimensions ($d_1$ domain knowledge through $d_6$ creativity), the position-dependent Riemannian metric (encoding the cost of learning transitions), the $6 \times 6$ covariance matrix (encoding cross-dimensional interactions), the learner geodesic (the optimal learning trajectory), the developmental topology (the growing manifold that changes as the student learns), the boundary architecture (prerequisites, institutional constraints, and developmental thresholds), the goal region (the set of acceptable educational outcomes), and the heuristic field (the guidance function from teachers, parents, and self-monitoring).</p>
 <p>The key insight is that learning is geodesic traversal on this manifold, and the optimal path depends on the student&rsquo;s position, the manifold&rsquo;s curvature, and the goal region &mdash; none of which are captured by a scalar grade. The GPA contracts this six-dimensional structure to a single number. The next chapter proves that the contraction is irreversible.</p>
 <hr />
-<p>[^1]: Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. <em>American Psychologist</em>, 34(10), 906&ndash;911. Schraw, G., &amp; Dennison, R. S. (1994). Assessing metacognitive awareness. <em>Contemporary Educational Psychology</em>, 19(4), 460&ndash;475. The relationship between metacognitive awareness and academic achievement is well-documented across educational levels and domains.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. <em>American Psychologist</em>, 34(10), 906&ndash;911. Schraw, G., &amp; Dennison, R. S. (1994). Assessing metacognitive awareness. <em>Contemporary Educational Psychology</em>, 19(4), 460&ndash;475. The relationship between metacognitive awareness and academic achievement is well-documented across educational levels and domains.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
       </div>
 
       <div class="chapter-nav-bottom">
-        <a href="index.html" class="nav-toc">&larr; Contents</a>
+        <a href="ch03_history.html" class="nav-prev">&larr; Chapter 3: From Socratic Dialogue to Scantron --- A Brief Hi…</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch05_assessment_contraction.html" class="nav-next">Chapter 5: Assessment as Contraction --- The GPA Irrecoverab… &rarr;</a>
       </div>
     </div>
   </article>
@@ -278,6 +293,7 @@
         {left: '\\\\(', right: '\\\\)', display: false},
         {left: '\\\\[', right: '\\\\]', display: true}
       ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
       throwOnError: false
     });"></script>
 </body>

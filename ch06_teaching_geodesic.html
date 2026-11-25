@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 6: Teaching as Geodesic Guidance &mdash; Geometric Education</title>
   <meta name="description" content="Chapter 6: Teaching as Geodesic Guidance from Geometric Education: Learning, Assessment, and the Topology of Understanding, by Andrew H. Bond.">
+  <meta name="generator" content="geometric-series build kit">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../book/book.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 
-<body data-book-slug="geometric-education">
+<body data-book-slug="geometric-education" data-chapter-id="ch06_teaching_geodesic">
   <nav id="main-nav">
     <div class="nav-inner">
       <a href="../index.html" class="nav-brand">
@@ -36,6 +37,11 @@
         <span class="breadcrumb-sep">&rsaquo;</span>
         <span class="breadcrumb-current">Chapter 6: Teaching as Geodesic Guidance</span>
       </nav>
+      <div class="chapter-nav-top">
+        <a href="ch05_assessment_contraction.html" class="nav-prev">&larr; Chapter 5: Assessment as Contraction --- The GPA Irrecoverab…</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch07_curriculum_pathfinding.html" class="nav-next">Chapter 7: Curriculum as Pathfinding &rarr;</a>
+      </div>
 
       <div class="chapter-content">
 <h1 id="chapter-6-teaching-as-geodesic-guidance">Chapter 6: Teaching as Geodesic Guidance</h1>
@@ -73,10 +79,10 @@
 <p>This theorem is a direct instantiation of the A<em> optimality theorem from </em>Geometric Reasoning* (Ch. 3). Its educational content is: if the teacher&rsquo;s estimate of student understanding is reliably conservative (never overestimates readiness), then the teaching path is optimal. Good teaching is admissible heuristic guidance.</p>
 <p>Master teachers have strictly admissible heuristics. They reliably detect gaps in understanding. They are careful not to advance before the student is ready. They may occasionally provide more practice than strictly necessary (because the heuristic underestimates &mdash; the teacher thinks the student is further from understanding than they are), but they never skip essential steps. The result is a near-geodesic path through the manifold.</p>
 <h3 id="622-epsilon-admissible-competent-teachers">6.2.2 Epsilon-Admissible: Competent Teachers</h3>
-<p>An epsilon-admissible heuristic satisfies $h_T(\mathbf{x}) \leq d_{\mathcal{L}}(\mathbf{x}, G) + \epsilon$ for some small $\epsilon > 0$. The teacher&rsquo;s estimate may slightly overestimate the student&rsquo;s distance from understanding. The resulting teaching path is within $\epsilon$ of optimal: not perfect, but close.</p>
+<p>An epsilon-admissible heuristic satisfies $h_T(\mathbf{x}) \leq d_{\mathcal{L}}(\mathbf{x}, G) + \epsilon$ for some small $\epsilon &gt; 0$. The teacher&rsquo;s estimate may slightly overestimate the student&rsquo;s distance from understanding. The resulting teaching path is within $\epsilon$ of optimal: not perfect, but close.</p>
 <p>Most competent teachers have epsilon-admissible heuristics. They occasionally misjudge a student&rsquo;s readiness, moving on slightly too fast or providing slightly too little practice. The resulting teaching path is near-geodesic but not exactly geodesic. The epsilon is the gap between professional competence and pedagogical perfection.</p>
 <h3 id="623-inadmissible-miscalibrated-teachers">6.2.3 Inadmissible: Miscalibrated Teachers</h3>
-<p>An inadmissible heuristic systematically overestimates the student&rsquo;s readiness: $h_T(\mathbf{x}) > d_{\mathcal{L}}(\mathbf{x}, G) + \epsilon$ for many states $\mathbf{x}$. The teacher thinks the student is closer to understanding than they actually are, and moves on before prerequisites are established.</p>
+<p>An inadmissible heuristic systematically overestimates the student&rsquo;s readiness: $h_T(\mathbf{x}) &gt; d_{\mathcal{L}}(\mathbf{x}, G) + \epsilon$ for many states $\mathbf{x}$. The teacher thinks the student is closer to understanding than they actually are, and moves on before prerequisites are established.</p>
 <p>Inadmissible heuristics produce non-geodesic paths. The student is pushed into regions of the manifold where the prerequisites have not been built, the metric is degenerate (the necessary tangent vectors are absent), and learning stalls. The student does not merely fail to learn; they arrive at a position on the manifold from which further progress requires backtracking to build the missing prerequisites &mdash; a longer and more costly path than the geodesic would have been.</p>
 <p>Two common causes of inadmissible heuristics:</p>
 <p><strong>Pace pressure.</strong> Curriculum schedules that require covering a fixed amount of material in a fixed time create pressure to advance regardless of student readiness. The teacher&rsquo;s heuristic becomes inadmissible not because the teacher misjudges the student but because the institution overrides the teacher&rsquo;s judgment with a pace constraint. The schedule overestimates the student&rsquo;s readiness by assumption: &ldquo;Students should understand derivatives by week 6&rdquo; is a heuristic value imposed externally, regardless of the actual student state.</p>
@@ -131,11 +137,20 @@
 <h2 id="summary">Summary</h2>
 <p>This chapter has formalized the teacher&rsquo;s role as a heuristic field on the learner manifold. The pedagogical heuristic $h_T$ estimates the student&rsquo;s distance from the goal region, and its quality determines the quality of the teaching path: admissible heuristics produce geodesic paths, epsilon-admissible heuristics produce near-geodesic paths, inadmissible heuristics produce non-geodesic paths, and gauge-variant heuristics produce systematically biased paths. Scaffolding is local metric adjustment in the Zone of Proximal Development. First-generation students navigate without an inherited heuristic field, and the resulting inefficiency is measurable. The four heuristic failure modes from the general theory &mdash; corruption, hijacking, local minima, and gauge breaking &mdash; have direct educational instantiations. Good teaching is admissible heuristic guidance. Great teaching is gauge-invariant, near-optimal heuristic calibration across all dimensions of the learner manifold.</p>
 <hr />
-<p>[^1]: Shulman, L. S. (1986). Those who understand: Knowledge growth in teaching. <em>Educational Researcher</em>, 15(2), 4&ndash;14.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Shulman, L. S. (1986). Those who understand: Knowledge growth in teaching. <em>Educational Researcher</em>, 15(2), 4&ndash;14.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
       </div>
 
       <div class="chapter-nav-bottom">
-        <a href="index.html" class="nav-toc">&larr; Contents</a>
+        <a href="ch05_assessment_contraction.html" class="nav-prev">&larr; Chapter 5: Assessment as Contraction --- The GPA Irrecoverab…</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch07_curriculum_pathfinding.html" class="nav-next">Chapter 7: Curriculum as Pathfinding &rarr;</a>
       </div>
     </div>
   </article>
@@ -163,6 +178,7 @@
         {left: '\\\\(', right: '\\\\)', display: false},
         {left: '\\\\[', right: '\\\\]', display: true}
       ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
       throwOnError: false
     });"></script>
 </body>

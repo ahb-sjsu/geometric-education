@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 1: The GPA Trap &mdash; Geometric Education</title>
   <meta name="description" content="Chapter 1: The GPA Trap from Geometric Education: Learning, Assessment, and the Topology of Understanding, by Andrew H. Bond.">
+  <meta name="generator" content="geometric-series build kit">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../book/book.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 
-<body data-book-slug="geometric-education">
+<body data-book-slug="geometric-education" data-chapter-id="ch01_gpa_trap">
   <nav id="main-nav">
     <div class="nav-inner">
       <a href="../index.html" class="nav-brand">
@@ -36,6 +37,11 @@
         <span class="breadcrumb-sep">&rsaquo;</span>
         <span class="breadcrumb-current">Chapter 1: The GPA Trap</span>
       </nav>
+      <div class="chapter-nav-top">
+        <span class="nav-prev"></span>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch02_testing_industrial_complex.html" class="nav-next">Chapter 2: The Testing Industrial Complex &rarr;</a>
+      </div>
 
       <div class="chapter-content">
 <h1 id="chapter-1-the-gpa-trap">Chapter 1: The GPA Trap</h1>
@@ -60,7 +66,7 @@
 <h2 id="12-the-scalar-menagerie-of-educational-assessment">1.2 The Scalar Menagerie of Educational Assessment</h2>
 <p>Before developing the geometric framework that explains why the GPA fails, it is worth surveying the full landscape of scalar assessment in education. The GPA is not an isolated failure. It is one member of a large family of scalar metrics, each of which compresses a different aspect of the multi-dimensional learner state into a single number, and each of which destroys geometric structure in a specific and identifiable way.</p>
 <h3 id="121-the-grade-point-average-the-original-contraction">1.2.1 The Grade Point Average: The Original Contraction</h3>
-<p>The GPA was introduced in the early twentieth century as part of the standardization of American higher education. William Farish of Cambridge is often credited &mdash; perhaps apocryphally &mdash; with inventing the numerical grade in 1792, assigning numbers to student work to avoid the labor of individual assessment.[^1] The letter grade system (A through F) was standardized in American universities between 1890 and 1920. The conversion to a numerical average (4.0 = A, 3.0 = B, etc.) followed naturally: once grades are numbers, they can be averaged, and once they can be averaged, the average becomes the primary representation.</p>
+<p>The GPA was introduced in the early twentieth century as part of the standardization of American higher education. William Farish of Cambridge is often credited &mdash; perhaps apocryphally &mdash; with inventing the numerical grade in 1792, assigning numbers to student work to avoid the labor of individual assessment.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> The letter grade system (A through F) was standardized in American universities between 1890 and 1920. The conversion to a numerical average (4.0 = A, 3.0 = B, etc.) followed naturally: once grades are numbers, they can be averaged, and once they can be averaged, the average becomes the primary representation.</p>
 <p>The GPA is a specific contraction of the learner state. In the notation of the geometric framework developed in Chapter 4, a student&rsquo;s learner state is a point $\mathbf{x} \in \mathbb{R}^d$ on the learner manifold $\mathcal{L}$, where $d$ is the number of independent dimensions of educationally relevant variation. The GPA is a function $G: \mathbb{R}^d \to \mathbb{R}$ that maps this $d$-dimensional state to a single real number.</p>
 <p>What does the contraction destroy?</p>
 <p><strong>Dimensional collapse.</strong> A student&rsquo;s performance in a course reflects multiple dimensions: domain knowledge ($d_1$), procedural skill ($d_2$), metacognitive awareness ($d_3$), motivation ($d_4$), transfer ability ($d_5$), and creativity ($d_6$). The course grade compresses these six dimensions to a single letter. The semester GPA averages the letters across courses. The cumulative GPA averages across semesters. At each stage, dimensions are collapsed and information is destroyed. The final GPA is a projection from a space of at least $6 \times (\text{number of courses})$ dimensions onto a single number.</p>
@@ -69,7 +75,7 @@
 <p><strong>Distributional collapse.</strong> Two students with a 3.5 GPA may have radically different grade distributions. Student A has all B-pluses (consistent mediocrity). Student B has half A-pluses and half C-minuses (bimodal: excellence in some areas, struggle in others). The GPA is the same. The learning profile &mdash; the shape of the distribution across courses &mdash; is invisible.</p>
 <p>Each of these collapses destroys geometric structure. Dimensional collapse destroys the metric structure of the learner manifold (the distance between learner states in the full space). Temporal collapse destroys the trajectory structure (the path the student followed through the manifold). Contextual collapse destroys the gauge structure (the coordinate system in which the grades were assigned). Distributional collapse destroys the topological structure (the shape of the student&rsquo;s competence profile).</p>
 <h3 id="122-the-sat-a-three-digit-number-for-a-six-dimensional-state">1.2.2 The SAT: A Three-Digit Number for a Six-Dimensional State</h3>
-<p>The SAT was first administered in 1926, adapted from the Army Alpha intelligence test used to sort recruits in World War I.[^2] Its explicit purpose was to predict college readiness &mdash; a multi-dimensional concept involving domain knowledge, study skills, self-regulation, persistence, social integration, and intellectual curiosity &mdash; using a single numerical score.</p>
+<p>The SAT was first administered in 1926, adapted from the Army Alpha intelligence test used to sort recruits in World War I.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> Its explicit purpose was to predict college readiness &mdash; a multi-dimensional concept involving domain knowledge, study skills, self-regulation, persistence, social integration, and intellectual curiosity &mdash; using a single numerical score.</p>
 <p>The current SAT produces two section scores (Evidence-Based Reading and Writing, Mathematics), each on a 200&ndash;800 scale, and a total score on a 400&ndash;1600 scale. The total score is the number that appears on applications. It is a projection from the learner manifold onto a one-dimensional subspace.</p>
 <p>What does the projection discard?</p>
 <p><strong>Procedural skill ($d_2$).</strong> The SAT tests recognition, not construction. Multiple-choice items require identifying the correct answer from a set of options, not producing a solution from scratch. A student who can derive a formula but cannot select it from a list may have high $d_2$ and low SAT-math. A student who can recognize correct grammar but cannot write a coherent paragraph may have high SAT-verbal and low $d_2$ for writing. The SAT selects the recognition sub-dimension of $d_1$ and discards the construction sub-dimension of $d_2$.</p>
@@ -216,13 +222,26 @@
 <p>This chapter has argued that the GPA &mdash; the number at the center of educational evaluation &mdash; is a scalar contraction of a multi-dimensional learner state, and that the contraction destroys four types of geometric structure: metric (the distance between learner states), symmetry (the invariances that preserve educational meaning), fiber (the distinction between the grade and the learner states consistent with that grade), and topology (the shape of the competence profile). The destruction is mathematically irreversible: the GPA Irrecoverability Theorem (stated informally here, proved in Chapter 5) shows that no function of the GPA can recover the learner state, that the GPA-optimal learning path diverges from the actual learning geodesic, and that the divergence systematically disadvantages students whose strengths are concentrated on non-graded dimensions.</p>
 <p>The costs are not theoretical. They manifest as misallocation of students, misalignment of incentives, structural disadvantage for students from under-resourced backgrounds, and epistemic harm to students who internalize the scalar representation of their own learning. The alternative &mdash; geometric assessment on the learner manifold &mdash; is already emerging in portfolio-based assessment, learning analytics, and multi-dimensional reporting. What it lacks is a unifying framework. This book provides that framework.</p>
 <hr />
-<p>[^1]: The attribution to William Farish is widespread in educational criticism (see Kirschenbaum, Simon, &amp; Napier, 1971, <em>Wad-ja-get? The Grading Game in American Education</em>) but difficult to verify from primary sources. What is documented is that numerical grading became common in American universities in the late nineteenth century, with Yale adopting a four-point scale in 1813 and Harvard adopting letter grades in 1883.</p>
-<p>[^2]: Lemann, N. (1999). <em>The Big Test: The Secret History of the American Meritocracy</em>. Farrar, Straus and Giroux. The connection between the Army Alpha test and the SAT is documented in detail; Carl Brigham, who developed the SAT, had previously worked on the Army mental tests and published a book (<em>A Study of American Intelligence</em>, 1923) arguing for racial differences in intelligence &mdash; a position he later recanted.</p>
-<p>[^3]: The $6 \times 6$ learner covariance matrix $\Sigma$ is developed formally in Chapter 4. The off-diagonal terms encode the relationships between dimensions: $\Sigma_{13}$ (domain knowledge $\times$ metacognition), $\Sigma_{45}$ (motivation $\times$ transfer), $\Sigma_{26}$ (procedural skill $\times$ creativity). These terms are not free parameters; they are estimable from educational data, as described in Chapter 16.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>The attribution to William Farish is widespread in educational criticism (see Kirschenbaum, Simon, &amp; Napier, 1971, <em>Wad-ja-get? The Grading Game in American Education</em>) but difficult to verify from primary sources. What is documented is that numerical grading became common in American universities in the late nineteenth century, with Yale adopting a four-point scale in 1813 and Harvard adopting letter grades in 1883.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Lemann, N. (1999). <em>The Big Test: The Secret History of the American Meritocracy</em>. Farrar, Straus and Giroux. The connection between the Army Alpha test and the SAT is documented in detail; Carl Brigham, who developed the SAT, had previously worked on the Army mental tests and published a book (<em>A Study of American Intelligence</em>, 1923) arguing for racial differences in intelligence &mdash; a position he later recanted.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>The $6 \times 6$ learner covariance matrix $\Sigma$ is developed formally in Chapter 4. The off-diagonal terms encode the relationships between dimensions: $\Sigma_{13}$ (domain knowledge $\times$ metacognition), $\Sigma_{45}$ (motivation $\times$ transfer), $\Sigma_{26}$ (procedural skill $\times$ creativity). These terms are not free parameters; they are estimable from educational data, as described in Chapter 16.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
       </div>
 
       <div class="chapter-nav-bottom">
-        <a href="index.html" class="nav-toc">&larr; Contents</a>
+        <span class="nav-prev"></span>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch02_testing_industrial_complex.html" class="nav-next">Chapter 2: The Testing Industrial Complex &rarr;</a>
       </div>
     </div>
   </article>
@@ -250,6 +269,7 @@
         {left: '\\\\(', right: '\\\\)', display: false},
         {left: '\\\\[', right: '\\\\]', display: true}
       ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
       throwOnError: false
     });"></script>
 </body>

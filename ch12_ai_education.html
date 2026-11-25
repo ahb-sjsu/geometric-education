@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 12: AI in Education --- The No Escape Theorem for Educational AI &mdash; Geometric Education</title>
   <meta name="description" content="Chapter 12: AI in Education --- The No Escape Theorem for Educational AI from Geometric Education: Learning, Assessment, and the Topology of Understanding, by Andrew H. Bond.">
+  <meta name="generator" content="geometric-series build kit">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../book/book.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 
-<body data-book-slug="geometric-education">
+<body data-book-slug="geometric-education" data-chapter-id="ch12_ai_education">
   <nav id="main-nav">
     <div class="nav-inner">
       <a href="../index.html" class="nav-brand">
@@ -36,6 +37,11 @@
         <span class="breadcrumb-sep">&rsaquo;</span>
         <span class="breadcrumb-current">Chapter 12: AI in Education --- The No Escape Theorem for Educational AI</span>
       </nav>
+      <div class="chapter-nav-top">
+        <a href="ch11_transfer_learning.html" class="nav-prev">&larr; Chapter 11: Transfer Learning as Parallel Transport</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="appendix_a_math.html" class="nav-next">Appendix A: Mathematical Prerequisites &rarr;</a>
+      </div>
 
       <div class="chapter-content">
 <h1 id="chapter-12-ai-in-education-the-no-escape-theorem-for-educational-ai">Chapter 12: AI in Education &mdash; The No Escape Theorem for Educational AI</h1>
@@ -75,7 +81,7 @@
 <p><em>The theorem provides structural guarantees: educational AI cannot be better than geometric education, only faster.</em></p>
 <h3 id="1231-proof-sketch">12.3.1 Proof Sketch</h3>
 <p>(1) follows from the manifold&rsquo;s topology: prerequisites are connectivity constraints on the manifold, and no heuristic guidance can create an edge that does not exist. An AI tutor that recommends skipping Calculus I and proceeding directly to Calculus II is recommending a path that does not exist on the manifold &mdash; the student will arrive at a region where the necessary tangent vectors are absent.</p>
-<p>(2) follows from the Scalar Irrecoverability Theorem: if the AI measures $k < d$ dimensions of the learner state, it cannot infer the remaining $d - k$ dimensions from the measured ones (Corollary 5.2.1).</p>
+<p>(2) follows from the Scalar Irrecoverability Theorem: if the AI measures $k &lt; d$ dimensions of the learner state, it cannot infer the remaining $d - k$ dimensions from the measured ones (Corollary 5.2.1).</p>
 <p>(3) follows from Theorem 5.3: any scalar objective diverges from the geodesic, and the AI&rsquo;s optimization of that scalar produces the same divergence as human optimization.</p>
 <p>(4) follows from the Assessment Gauge Invariance Theorem (9.1): gauge invariance requires invariance under format, language, context, and examiner transformations, which requires measuring the same understanding through multiple instruments. An AI that evaluates through a single modality (text) is gauge-variant by construction.</p>
 <h2 id="124-what-ai-can-do">12.4 What AI Can Do</h2>
@@ -98,11 +104,20 @@
 <h2 id="summary">Summary</h2>
 <p>This chapter has examined AI in education through the geometric lens. LLM tutors provide heuristic field guidance that is always available, infinitely patient, and broadly knowledgeable, but cannot measure the student&rsquo;s actual manifold position, cannot perform gauge-invariant assessment, and is vulnerable to sycophancy (optimizing satisfaction rather than learning). Automated grading performs scalar contraction without the moral injury feedback that motivates reform in human teachers. The No Escape Theorem establishes that educational AI cannot exceed the manifold&rsquo;s geometry: it cannot skip prerequisites, assess unmeasured dimensions, avoid geodesic divergence under scalar optimization, or achieve gauge invariance without multi-modal assessment. AI can contribute rapid metric estimation, adaptive pathfinding, unlimited practice generation, and massive scalability. It cannot contribute gauge-invariant assessment, moral judgment about the contraction, or the contextually embedded human heuristic recalibration that transforms a student&rsquo;s trajectory.</p>
 <hr />
-<p>[^1]: The No Escape Theorem for educational AI is an instantiation of the general No Escape Theorem from <em>Geometric Ethics</em> (Bond, 2026b, Ch. 19), which establishes that AI systems operating within a geometric ethical framework cannot escape the framework&rsquo;s structural constraints.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>The No Escape Theorem for educational AI is an instantiation of the general No Escape Theorem from <em>Geometric Ethics</em> (Bond, 2026b, Ch. 19), which establishes that AI systems operating within a geometric ethical framework cannot escape the framework&rsquo;s structural constraints.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
       </div>
 
       <div class="chapter-nav-bottom">
-        <a href="index.html" class="nav-toc">&larr; Contents</a>
+        <a href="ch11_transfer_learning.html" class="nav-prev">&larr; Chapter 11: Transfer Learning as Parallel Transport</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="appendix_a_math.html" class="nav-next">Appendix A: Mathematical Prerequisites &rarr;</a>
       </div>
     </div>
   </article>
@@ -130,6 +145,7 @@
         {left: '\\\\(', right: '\\\\)', display: false},
         {left: '\\\\[', right: '\\\\]', display: true}
       ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
       throwOnError: false
     });"></script>
 </body>

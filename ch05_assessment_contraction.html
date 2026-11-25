@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 5: Assessment as Contraction --- The GPA Irrecoverability Theorem &mdash; Geometric Education</title>
   <meta name="description" content="Chapter 5: Assessment as Contraction --- The GPA Irrecoverability Theorem from Geometric Education: Learning, Assessment, and the Topology of Understanding, by Andrew H. Bond.">
+  <meta name="generator" content="geometric-series build kit">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../book/book.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 
-<body data-book-slug="geometric-education">
+<body data-book-slug="geometric-education" data-chapter-id="ch05_assessment_contraction">
   <nav id="main-nav">
     <div class="nav-inner">
       <a href="../index.html" class="nav-brand">
@@ -36,6 +37,11 @@
         <span class="breadcrumb-sep">&rsaquo;</span>
         <span class="breadcrumb-current">Chapter 5: Assessment as Contraction --- The GPA Irrecoverability Theorem</span>
       </nav>
+      <div class="chapter-nav-top">
+        <a href="ch04_learner_manifold.html" class="nav-prev">&larr; Chapter 4: The Learner Manifold</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch06_teaching_geodesic.html" class="nav-next">Chapter 6: Teaching as Geodesic Guidance &rarr;</a>
+      </div>
 
       <div class="chapter-content">
 <h1 id="chapter-5-assessment-as-contraction-the-gpa-irrecoverability-theorem">Chapter 5: Assessment as Contraction &mdash; The GPA Irrecoverability Theorem</h1>
@@ -74,8 +80,8 @@
 <p>This is not a practical limitation (we do not have the right algorithm yet). It is a mathematical impossibility (no algorithm can exist). The distinction matters: practical limitations can be overcome by technological progress; mathematical impossibilities cannot.</p>
 <h3 id="531-what-about-multiple-scalars">5.3.1 What About Multiple Scalars?</h3>
 <p>A natural response is: &ldquo;Use multiple scores instead of one.&rdquo; Report the GPA and the SAT and the class rank and the rubric profile. Do $k$ scalars suffice?</p>
-<p><strong>Corollary 5.2.1.</strong> <em>For any $k$ scalar assessment functions $G_1, \ldots, G_k$ with $k < d$, the joint assessment $(G_1(\mathbf{x}), \ldots, G_k(\mathbf{x}))$ is not injective. The information loss is reduced but not eliminated until $k \geq d$.</em></p>
-<p>The proof is the same dimensional argument: a continuous map from $\mathbb{R}^d$ to $\mathbb{R}^k$ with $k < d$ cannot be injective. If the learner manifold has six independent dimensions, you need at least six independent measurements to characterize a point on it.</p>
+<p><strong>Corollary 5.2.1.</strong> <em>For any $k$ scalar assessment functions $G_1, \ldots, G_k$ with $k &lt; d$, the joint assessment $(G_1(\mathbf{x}), \ldots, G_k(\mathbf{x}))$ is not injective. The information loss is reduced but not eliminated until $k \geq d$.</em></p>
+<p>The proof is the same dimensional argument: a continuous map from $\mathbb{R}^d$ to $\mathbb{R}^k$ with $k &lt; d$ cannot be injective. If the learner manifold has six independent dimensions, you need at least six independent measurements to characterize a point on it.</p>
 <p>The critical word is <em>independent</em>. The GPA, SAT score, GRE score, and class rank are all correlated because they all project primarily onto $d_1$ (domain knowledge testable by exams). Four correlated scalars contain less independent information than four independent measurements. The effective dimensionality of the assessment battery &mdash; the number of independent dimensions it spans &mdash; is typically much less than the number of scores it produces.</p>
 <h2 id="54-geodesic-divergence">5.4 Geodesic Divergence</h2>
 <p><strong>Theorem 5.3 (Geodesic Divergence).</strong> <em>Let $\gamma_G^*$ be the path on $\mathcal{L}$ that maximizes the scalar assessment $G$ at each step (the assessment-optimal path), and let $\gamma_\mathcal{L}^*$ be the geodesic on $\mathcal{L}$ from the student&rsquo;s initial state $\mathbf{x}_0$ to the goal region $\mathcal{G}$. Then the divergence between these paths,</em></p>
@@ -124,11 +130,20 @@
 <h2 id="summary">Summary</h2>
 <p>This chapter has proved the GPA Irrecoverability Theorem: any scalar assessment function on the six-dimensional learner manifold is non-injective (Theorem 5.1), its information loss is irrecoverable (Theorem 5.2), and the assessment-optimal path diverges from the learner geodesic (Theorem 5.3). The corollaries establish that GPA discrimination is mathematical (Corollary 5.3.1), grade optimization and learning diverge (Corollary 5.3.2), and scalar grades are adequate only under restrictive conditions that fail in most educational contexts (Proposition 5.4). The theorem is the mathematical foundation for the rest of the book: every application, every measurement, every policy recommendation in the chapters that follow is a consequence of the fact that the contraction from manifold to scalar is irreversible, and the irreversibility has moral consequences.</p>
 <hr />
-<p>[^1]: The GPA Irrecoverability Theorem is the education-specific instantiation of the Scalar Irrecoverability Theorem from <em>Geometric Reasoning</em> (Bond, 2026c, Ch. 13). The general theorem applies to any domain; the education-specific version identifies the specific dimensions, the specific projection weights, and the specific populations affected.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>The GPA Irrecoverability Theorem is the education-specific instantiation of the Scalar Irrecoverability Theorem from <em>Geometric Reasoning</em> (Bond, 2026c, Ch. 13). The general theorem applies to any domain; the education-specific version identifies the specific dimensions, the specific projection weights, and the specific populations affected.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
       </div>
 
       <div class="chapter-nav-bottom">
-        <a href="index.html" class="nav-toc">&larr; Contents</a>
+        <a href="ch04_learner_manifold.html" class="nav-prev">&larr; Chapter 4: The Learner Manifold</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="ch06_teaching_geodesic.html" class="nav-next">Chapter 6: Teaching as Geodesic Guidance &rarr;</a>
       </div>
     </div>
   </article>
@@ -156,6 +171,7 @@
         {left: '\\\\(', right: '\\\\)', display: false},
         {left: '\\\\[', right: '\\\\]', display: true}
       ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
       throwOnError: false
     });"></script>
 </body>
