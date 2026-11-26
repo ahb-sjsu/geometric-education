@@ -106,4 +106,4 @@ This chapter has identified five lessons that the domain of education teaches th
 
 ---
 
-[^1]: The feedback protocol (each domain book contributes to the general theory) is described in *Geometric Reasoning* (Bond, 2026c, Ch. 16) and in the Series Outlines document.
+[^1]: The feedback protocol (each domain book contributes to the general theory) is described in the Series Outlines document (`SERIES_OUTLINES.md`, item 9, in the geometric-reasoning repository).

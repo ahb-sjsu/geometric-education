@@ -111,4 +111,4 @@ This chapter has examined AI in education through the geometric lens. LLM tutors
 
 ---
 
-[^1]: The No Escape Theorem for educational AI is an instantiation of the general No Escape Theorem, *Geometric Ethics*, Theorem 18.1 (Bond, 2026b, Ch. 18), a conditional theorem there, which states, on its four requirements, that AI systems operating within a geometric ethical framework cannot escape the framework's structural constraints.
+[^1]: The No Escape Theorem for educational AI is an analogue of the No Escape Theorem of *Geometric Ethics*, Theorem 18.1 (Bond, 2026b, Ch. 18), conditional there on four requirements. It borrows the name, not the mechanism.

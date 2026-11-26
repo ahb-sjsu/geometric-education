@@ -66,7 +66,7 @@ All notation is consistent with the Geometric Series convention established in *
 
 | Abbreviation | Full Title |
 |-------------|-----------|
-| GM | *Geometric Methods in Computational Modeling* (Bond, 2026a) |
+| GM | *Geometric Methods: Computational Modeling* (Bond, 2026a) |
 | GR | *Geometric Reasoning: From Search to Manifolds* (Bond, 2026c) |
 | GE | *Geometric Ethics: The Mathematical Structure of Moral Reasoning* (Bond, 2026b) |
 | GEcon | *Geometric Economics* (Bond, 2026d) |

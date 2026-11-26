@@ -9,13 +9,13 @@
 
 > **THE WOUND**
 >
-> *The teacher forced to contract multi-dimensional understanding to scalar grades experiences the same structural phenomenon as the clinician forced to contract multi-dimensional clinical states to triage decisions. Grading is moral injury with a red pen. This chapter formalizes the structural parallel between educational grading and clinical moral injury, drawing on the Moral Injury Accumulation Theorem from Geometric Medicine (Ch. 13--15) and applying it to the educational context.*
+> *The teacher forced to contract multi-dimensional understanding to scalar grades experiences the same structural phenomenon as the clinician forced to contract multi-dimensional clinical states to triage decisions. Grading is moral injury with a red pen. This chapter formalizes the structural parallel between educational grading and clinical moral injury, drawing on the Moral Injury Accumulation Theorem, Geometric Medicine's Theorem 13.1 (Ch. 13), and applying it to the educational context.*
 
 ---
 
 ## 8.1 The Structural Parallel
 
-In *Geometric Medicine*, moral injury is defined as the permanent alteration of the clinician's heuristic function by forced boundary crossings on the clinical decision complex. The clinician who is forced to deny treatment to a patient who needs it --- because of resource scarcity, institutional policy, or triage protocols --- crosses a moral boundary that the clinician's own ethical framework forbids. Each crossing leaves a residue: the heuristic function is distorted, the boundary penalties are recalibrated, and the clinician's capacity for ethical reasoning is degraded.
+In *Geometric Medicine*, moral injury is defined as a forced crossing of a moral boundary on the clinical decision complex (that book's Definition 13.1), and its accumulation is held to alter the clinician's heuristic function, irreversibly above a threshold (that book's Theorem 13.1). The clinician who is forced to deny treatment to a patient who needs it --- because of resource scarcity, institutional policy, or triage protocols --- crosses a moral boundary that the clinician's own ethical framework forbids. Each crossing leaves a residue: the heuristic function is distorted, the boundary penalties are recalibrated, and the clinician's capacity for ethical reasoning is degraded.
 
 The structural parallel in education is precise. A teacher who assigns a grade knows two things: the grade that the rubric/exam/institution requires, and the grade that the teacher's professional judgment says the student has earned on the full learner manifold. When these differ --- when the required grade is a lossy projection of a multi-dimensional understanding that the teacher can see but the institution cannot represent --- the teacher faces the same structural dilemma as the clinician:
 

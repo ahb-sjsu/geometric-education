@@ -178,7 +178,7 @@ This matters because the shape of the profile determines the student's optimal l
 
 ## 1.5 The Scalar Irrecoverability Theorem for Education
 
-The losses catalogued above are not merely inconvenient. They are mathematically irreversible. This is the content of the Scalar Irrecoverability Theorem, proved in *Geometric Reasoning* (Ch. 13) and here stated in its education-specific form.
+The losses catalogued above are not merely inconvenient. They are mathematically irreversible. This is the content of the Scalar Irrecoverability Theorem, stated as a conditional theorem in *Geometric Reasoning*, Theorem 13.1 (Chapter 13; restated in that book's Section 10.7), and here stated in its education-specific form.
 
 **Theorem 1.1 (GPA Irrecoverability, Informal Statement).** *Let $\mathbf{x} \in \mathbb{R}^d$ be a learner state on the $d$-dimensional learner manifold, with $d \geq 2$. Let $G: \mathbb{R}^d \to \mathbb{R}$ be any scalar assessment function (GPA, test score, percentile rank). Then:*
 

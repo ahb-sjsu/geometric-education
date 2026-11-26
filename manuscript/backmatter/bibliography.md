@@ -84,7 +84,7 @@ Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., & Mag
 
 ## The Geometric Series
 
-Bond, A. H. (2026a). *Geometric Methods in Computational Modeling*. San Jose State University.
+Bond, A. H. (2026a). *Geometric Methods: Computational Modeling*. San Jose State University.
 
 Bond, A. H. (2026b). *Geometric Ethics: The Mathematical Structure of Moral Reasoning*. San Jose State University.
 

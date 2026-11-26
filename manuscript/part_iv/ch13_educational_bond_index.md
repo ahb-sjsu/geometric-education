@@ -156,4 +156,4 @@ This chapter has defined the Educational Bond Index, set out its computation, an
 
 ---
 
-[^1]: The Bond Index construction follows the clinical Bond Index, *Geometric Ethics*, Definition 21.10 (Bond, 2026b, Ch. 21), adapted for educational institutions. It shares a name with the Bond Index of *Geometric Ethics* (Ch. 18), which measures how much an evaluation changes under re-descriptions that should not change it, and is a different quantity. The educational version uses six dimensions rather than nine and replaces clinical-moral boundaries with prerequisite and institutional boundaries.
+[^1]: The Bond Index construction follows the clinical Bond Index, *Geometric Ethics*, Definition 21.10 (Bond, 2026b, Ch. 21), and *Geometric Medicine* (Bond, 2026h, Ch. 12), adapted for educational institutions. It shares a name with the Bond Index of *Geometric Ethics* (Ch. 18), which measures how much an evaluation changes under re-descriptions that should not change it, and is a different quantity. The educational version uses six dimensions rather than nine and replaces clinical-moral boundaries with prerequisite and institutional boundaries.

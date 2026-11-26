@@ -14,7 +14,7 @@
 
 ## 9.1 Gauge Invariance in Education
 
-The Bias Invariance Principle (BIP) from *Geometric Reasoning* (Ch. 11) states that evaluations must be invariant under meaning-preserving re-description. In education, this becomes:
+The Bond Invariance Principle (BIP) from *Geometric Reasoning* (Ch. 8) states that evaluations must be invariant under meaning-preserving re-description. In education, this becomes:
 
 **Assessment Gauge Invariance Condition.** *A student's measured learning state must be invariant under transformations of the assessment instrument that preserve the educational content being assessed. If the measured state changes when the instrument changes --- in ways that exceed measurement noise --- the assessment is gauge-variant, and the measured state is unreliable.*
 
