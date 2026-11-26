@@ -27,6 +27,10 @@ This is a stronger form of metric variation than the general theory in *Geometri
 
 **Prior knowledge asymmetries.** Alex's metric has low curvature through applied mathematics (leveraging years of practical mathematical reasoning) and high curvature through formal algebra (where the prerequisites are weak). Ethan's metric has the reverse pattern. The cost of learning Differential Equations is different for each student, not because the content is different but because the metric is different.
 
+![Figure 10.1](figures/ch10_fig1.svg)
+
+*Figure 10.1. The two learners of Section 10.1.1 as a computed illustration with illustrative cost fields; start and goal are the same. The cost of each step is close to 1 outside the shaded regions and rises steeply inside them: the region through formal manipulation is costly for the spatial learner, and the region through geometric visualization is costly for the symbolic learner. The solid curves are the least-cost paths under the two cost fields. The dashed line is the single path a uniform metric assumes, and it is the least-cost path for neither learner.*
+
 ## 10.2 One-Size-Fits-All as the Uniform Metric Assumption
 
 Traditional instruction assumes a uniform metric: the same path works for every student. This is the educational analogue of assuming flat space. It works when the manifold is approximately flat (homogeneous student population, well-aligned prerequisites, single dominant learning style) and fails catastrophically when the manifold is curved (diverse students, mixed preparation, varied cognitive profiles).

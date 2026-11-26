@@ -71,6 +71,10 @@ $$\Delta \mathbf{x}_{\text{prep}} = \Delta \mathbf{x}_{\parallel} + \Delta \math
 
 where $\Delta \mathbf{x}_{\parallel}$ is the component that changes the SAT score and $\Delta \mathbf{x}_{\perp}$ is the component that does not. Test preparation is designed to maximize $\|\Delta \mathbf{x}_{\parallel}\|$ relative to total effort. This means it preferentially develops the narrow skills that project onto the SAT (recognition speed, strategic elimination, format familiarity) while ignoring the broad skills that do not project onto the SAT (deep understanding, construction ability, transfer, creativity).
 
+![Figure 2.1](figures/ch02_fig1.svg)
+
+*Figure 2.1. The projection geometry of Section 2.1.3. Left: the weight vector the chapter posits for the SAT. Right: the plane of d1 and d2 with the other four dimensions held fixed, where the thin lines are sets of equal score for the weights 0.70 and 0.15. A change in the learner state (the one drawn is illustrative) splits into a part along the weight direction, which changes the score, and a part along a line of equal score, which does not.*
+
 ### 2.2.2 The Equity Dimension
 
 The $10 billion test preparation industry is not equally accessible. A comprehensive SAT prep course from Kaplan or Princeton Review costs $1,000--$2,500. Private tutoring costs $100--$300 per hour. A student who receives 100 hours of private tutoring has invested $10,000--$30,000 in projection optimization.

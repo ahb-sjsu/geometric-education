@@ -46,6 +46,10 @@ When a human teacher assigns a misleading grade, the teacher experiences moral i
 
 An AI grading system has no moral injury. It contracts without discomfort. It produces the scalar with perfect equanimity. The corrective signal is absent, which means the system has no internal pressure to improve the contraction. The AI grades without remorse, which means it contracts without the feedback mechanism that might motivate reform.
 
+![Figure 12.1](figures/ch12_fig1.svg)
+
+*Figure 12.1. A schematic of Section 12.2.1 that restates the chapter's argument and reports no measurement. A human grader and an automated grader perform the same contraction of a six-dimensional learner state to one grade. In the chapter's account the human grader can feel the gap between the state and the grade, and in some teachers that discomfort becomes pressure to change the assessment. The automated grader produces the grade with no such signal, so the loop back to the assessment is absent.*
+
 ## 12.3 The No Escape Theorem for Educational AI
 
 **Theorem 12.1 (No Escape for Educational AI).** *An AI system operating within the geometric framework of the learner manifold cannot escape the manifold's structure. Specifically:*

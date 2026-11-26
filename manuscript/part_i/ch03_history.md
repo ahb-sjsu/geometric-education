@@ -157,6 +157,10 @@ The ZPD has diagnostic power that scalar assessment lacks. A student's independe
 
 Two students with the same current performance ($d_1 = 0.50$, say) may have very different ZPDs. Student A has a large ZPD (can perform at 0.70 with modest support --- high readiness for growth). Student B has a small ZPD (can perform at 0.55 even with extensive support --- low readiness, possibly due to missing prerequisites that create a manifold boundary). The scalar assessment (0.50 for both) is identical. The ZPD assessment (large vs. small, in different directions) is radically different. The teaching implications (push Student A forward, remediate Student B's prerequisites) follow from the ZPD but not from the scalar.
 
+![Figure 3.2](figures/ch03_fig2.svg)
+
+*Figure 3.2. The example of Section 3.7.2. Two students perform at 0.50 on domain knowledge when working alone, so a scalar assessment gives both the same value. With support, Student A reaches 0.70 and Student B reaches 0.55. The band between the two marks is the zone of proximal development, which the scalar does not record. The horizontal axis is performance on d1, from 0 to 1.*
+
 ## 3.8 Freire's Critical Pedagogy: The Political Geometry (1968)
 
 Paulo Freire's *Pedagogy of the Oppressed* (1968) reframes education as a political act and introduces concepts that the geometric framework formalizes.
@@ -191,6 +195,10 @@ The Scantron trade-off is the trade-off of the entire history traced in this cha
 | Scantron (1972) | Machine-scored | 1 | Very high | Very low |
 
 The table reveals the trade-off clearly: as assessment scales up, it loses dimensions. The Socratic method captures all six dimensions for one student. The Scantron captures one dimension for millions. The history of educational assessment is the history of this trade-off, and every reform movement --- Dewey, Bloom, Gardner, Vygotsky, Freire --- has attempted to recover some of the lost dimensions without giving up the scalability. None has fully succeeded.
+
+![Figure 3.1](figures/ch03_fig1.svg)
+
+*Figure 3.1. The trade-off of Section 3.9.1, with the rows of the chapter's table put in order of date. Solid bars are the number of dimensions the assessment scores, as the table gives it (a lighter top marks a range, and 'all 6' is drawn as 6); dashed outlines are dimensions a tradition named and did not score. The line under each era is the scalability the table assigns. These are the chapter's characterisations, not measurements.*
 
 ## 3.10 The Standards Movement: Institutionalizing the Contraction (1990s--2000s)
 

@@ -33,6 +33,10 @@ $$\Delta \text{MI}(t) = \|\mathbf{x}(t) - \psi(G(\mathbf{x}(t)))\|$$
 
 The definition captures the intuition that moral injury is proportional to the gap between what the teacher knows and what the grade says. A grade that accurately represents the learner state ($\mathbf{x} \approx \psi(G(\mathbf{x}))$) causes no moral injury. A grade that radically misrepresents the learner state ($\|\mathbf{x} - \psi(G(\mathbf{x}))\|$ large) causes substantial moral injury.
 
+![Figure 8.1](figures/ch08_fig1.svg)
+
+*Figure 8.1. A schematic of Definition 8.1, in two of the six dimensions, with illustrative positions. The line is the set of learner states that receive one grade, and the open mark is the state an observer would infer from that grade alone, written ψ(G(x)) in the definition. Three students receive the grade. The moral injury increment the definition assigns to each grading event is the length of the arrow from the inferred state to the student's actual state, so it is smallest for student 1 and largest for student 3.*
+
 ## 8.3 The Moral Injury Accumulation Theorem for Education
 
 **Theorem 8.1 (Moral Injury Accumulation).** *The total moral injury accumulated by a teacher over a career is:*

@@ -91,3 +91,21 @@ Each of these needs the author. The text was left as it is.
 
 13. **Planning files not edited.**
     `OUTLINE.md` still describes "identical GPA contractions" for the 3.5 Decomposition, gives Alex's gauge violation as about 150 points where Section 14.8 says 150 to 200, and narrates Alex's study as results. It is a plan, not a chapter, and was left alone.
+
+## Found while drawing the figures (2026-11-26), not changed
+
+These were noticed while the figures were drawn and are left for the author. No figure draws them.
+
+1. Section 1.3 says "The students are orthogonal". The cosine between the two printed vectors is 0.91. The same sentence calls them "about as different as two learner states can be while producing the same GPA", while their distance is 0.78 and the diameter of the unit cube is the square root of 6, about 2.45.
+2. G(Ethan) is 0.6715 exactly and is printed as 0.671; the separation is 0.0785 and is printed as 0.078. The figures show the printed values.
+3. Section 2.2.1 says that along a fiber "the projection changes, the base point does not". Along a fiber the projection is unchanged by definition; the formal decomposition in the same section has it right.
+4. Section 3.9.1 lists Scantron (1972) after Gardner (1983), and its section follows the 1983 one.
+5. Proposition 4.1: Scenarios 1 and 3 list the same four dimensions, so "no proper subset suffices" holds only in the sense that each dimension appears in some scenario. The next sentence calls the proposition empirical.
+6. Section 11.5 against Section 5.4.1: Alex's entry state plus the printed transfer increment exceeds the printed four-year state on d4, d5 and d6. Section 11.5 also says that c squared = 4mk decides between overdamped, underdamped and undamped; undamped is c = 0.
+7. Chapter 12 says the AI tutor cannot observe physical skill (d2) in Section 12.1.2, and that it is helpful for procedural drill (d2) in Section 12.6, which also lists d1 among the dimensions it is less helpful for.
+8. Definition 13.1 subtracts the learning deviation of the geodesic, which is zero by the definition of the deviation; Section 13.3.3 drops the term without comment.
+9. The rows of the Section 9.4 table sum to 190 to 480; the text says 200 to 500.
+
+## Figure placeholder
+
+The one bracketed figure description, in Chapter 1, was taken out when the drawn Figure 1.1 went in, and is kept with a verdict in figures/PLACEHOLDERS.md.

@@ -73,6 +73,10 @@ This is the pedagogical strategy of "bridge domains": using an intermediate doma
 
 The intermediate-domain strategy is the educational analogue of choosing a geodesic through a curved space: the direct path may not be the shortest, and a detour through a lower-curvature region may reduce the total cost and holonomy.
 
+![Figure 11.1](figures/ch11_fig1.svg)
+
+*Figure 11.1. Path dependence of parallel transport, the property Section 11.3 attributes to knowledge transfer, computed on a sphere that stands in for a curved learner manifold; a schematic, not a measurement of any learner. One vector starts at the top. Carried straight down one meridian (route 1) and carried down another meridian and then along the equator (route 2), it arrives at the same point turned by 60 degrees, the angle between the meridians. On a flat surface the two arrivals would agree.*
+
 ## 11.4 Teaching for Transfer
 
 Educational research consistently finds that students do not transfer spontaneously. Transfer must be taught --- explicitly, deliberately, with attention to the structural mappings between domains.
@@ -125,6 +129,10 @@ The largest increment is on $d_5$ (transfer: $+0.20$), followed by $d_4$ (motiva
 No exam captures this moment. No grade measures this shift. The GPA for the Differential Equations course reflects Alex's performance on timed symbolic manipulation tests. The transfer --- the most educationally valuable event in Alex's college career --- is invisible to the transcript.
 
 ---
+
+![Figure 11.2](figures/ch11_fig2.svg)
+
+*Figure 11.2. The equation Alex recognizes in Section 11.5, m x'' + c x' + k x = 0, solved for four illustrative values of the damping c with m = 1, k = 1, starting at x = 1 at rest. The horizontal axis is time and the vertical axis is displacement. With no damping the oscillation continues. Below the critical value c² = 4mk the motion oscillates and fades, at the critical value it returns without oscillating, and above it the return is slower.*
 
 ## Summary
 

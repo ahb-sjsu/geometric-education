@@ -65,6 +65,10 @@ $$\text{Severity}(G, \mathbf{x}) = \text{Stakes}(G(\mathbf{x})) \times \frac{d -
 
 where $d$ is the dimensionality of the input, $k$ is the dimensionality of the output, and $\text{Stakes}$ is a function of the consequences attached to the output value. This ratio provides a principled criterion for when scalar contraction is tolerable and when it is catastrophic.
 
+![Figure 17.1](figures/ch17_fig1.svg)
+
+*Figure 17.1. The severity measure Section 17.4 proposes, Severity = Stakes × (d − k) / d, where d is the number of input dimensions and k the number the output keeps; it is a proposal of the chapter and has not been measured. Left: the fraction of dimensions lost, (d − k) / d, for a scalar output (k = 1), which is 0 for a one-dimensional input and 5/6 for the six-dimensional learner state. Right: the four cases the section lists, placed by stakes and by input dimensions, with the verdict the section gives each.*
+
 ## 17.5 The Developmental Dimension: Growing Manifolds
 
 Unlike other domains, education operates on a manifold that is growing. The clinical manifold is approximately fixed during treatment. The legal manifold evolves slowly with case law. The economic manifold shifts with market conditions. But the learner manifold changes fundamentally during the learning process: new connections form, new dimensions become accessible, the manifold literally grows as the student learns on it.

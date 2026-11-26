@@ -56,6 +56,10 @@ Five meaning-preserving transformations of the assessment instrument are identif
 
 **Geometric interpretation:** Different formats project the learner tensor onto different subspaces. A multiple-choice test projects primarily onto $d_1$. A free-response test projects onto $d_1$ and $d_2$. An oral exam projects onto $d_1$, $d_2$, and (through the interaction) $d_3$. A portfolio projects onto all six dimensions. The measured "score" depends on which subspace the format selects. This is gauge variance: the measurement changes under format transformation because the projection direction changes.
 
+![Figure 9.1](figures/ch09_fig1.svg)
+
+*Figure 9.1. The format swap of Section 9.3.2 as the chapter describes it; the cells restate the text and are not measurements. Each row is an assessment format and each column a dimension of the learner state. A filled cell means the chapter says that format projects onto that dimension. The same content read through a different format reaches a different set of dimensions, which is why the chapter posits that the score changes with the format.*
+
 ### 9.3.3 Language Swap
 
 **Transformation:** Administer the same content assessment in the student's first language versus their second language.

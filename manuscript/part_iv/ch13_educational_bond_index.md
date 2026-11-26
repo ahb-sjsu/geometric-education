@@ -28,6 +28,10 @@ The Bond Index is not a measure of student quality. It does not say "these stude
 
 The Bond Index is not an opinion. It is computed from measurable quantities: course availability (from institutional data), class sizes (from registrar records), student trajectories (from transcript data), and metric estimates (from learning analytics). The computation may involve estimation error, but the quantity being estimated is empirically defined, not philosophically asserted.
 
+![Figure 13.1](figures/ch13_fig1.svg)
+
+*Figure 13.1. A schematic of the quantity inside the Educational Bond Index (Definition 13.1 and Section 13.3.3), with illustrative paths and no data. The geodesic is the least-cost path from the student's starting state to the goal region, and the other curve is the path the institution's policy leaves open. The learning deviation is the distance between the two paths added up along the way, drawn as the shaded area. The index is its average over a student population.*
+
 ## 13.2 What the Bond Index Detects
 
 ### 13.2.1 Funding Disparities
@@ -139,6 +143,10 @@ The decomposition suggests that the most impactful intervention is improved heur
 Alex presents the result to the dean. For the first time, "structural inequality in the engineering program" has a number. The number is 2.1. The number decomposes into actionable sources. The number is computed from data the university already collects. The political becomes empirical.
 
 ---
+
+![Figure 13.2](figures/ch13_fig2.svg)
+
+*Figure 13.2. The hypothetical scenario of Section 13.5, in which no study has been run and every number is invented for illustration. Top: in the scenario the Bond Index of first-generation students is 2.1 times that of continuing-generation students, drawn with the continuing-generation value as 1. Bottom: the shares into which the scenario decomposes the index, 45 percent heuristic, 30 percent metric, 15 percent access and 10 percent residual.*
 
 ## Summary
 

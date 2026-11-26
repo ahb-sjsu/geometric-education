@@ -119,6 +119,10 @@ The geometry of educational opportunity is not abstract. It is the lived experie
 
 ---
 
+![Figure 15.1](figures/ch15_fig1.svg)
+
+*Figure 15.1. The two readings of the same graduation in Section 15.7, for Alex and Ethan, who are illustrative composite students. Left: the grade point averages the chapter gives, 3.2 and 3.7, on the 4.0 scale. Right: the distance of each four-year state from the origin of the six-dimensional space, 1.93 and 1.33, recomputed from the vectors printed in Section 5.4.1; the largest possible value is the square root of 6, about 2.45. The two readings order the two students oppositely.*
+
 ## Summary
 
 This chapter has developed the geometry of educational opportunity: the framework for understanding how structural conditions create different effective metrics for different student populations. Metric inequality --- the condition in which different populations pay different costs for the same learning transitions --- is caused by economic insecurity, housing instability, food insecurity, trauma, and heuristic field deprivation. The achievement gap is the projection of the metric gap onto the assessment dimension. Intersectionality produces multiplicative metric compounding. Effective interventions are metric repairs: they target the structural sources of metric distortion rather than the student's capacity. The opportunity gap is the metric gap, and closing it requires structural change in the conditions that inflate the metric, not scalar adjustment of the assessment outputs.

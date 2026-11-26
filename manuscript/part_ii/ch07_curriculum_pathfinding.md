@@ -101,6 +101,10 @@ Examples:
 
 - **The GPA trap (recursive).** A student whose GPA has fallen below the threshold for the goal region (e.g., minimum 2.0 for graduation) must raise the GPA to re-enter the goal region. But the GPA is a cumulative average: a low GPA accumulated over many semesters is resistant to improvement, because each new semester contributes only a small fraction of the total. The student must earn many credits at high grades to raise the average, and the courses that would raise the average most (easy courses with high expected grades) may not contribute to the degree requirements. The student is trapped between two gradients: the GPA gradient (take easy courses) and the degree gradient (take required courses). The optimal path for the degree is not the optimal path for the GPA. The student, rationally, follows the GPA gradient and delays the degree.
 
+![Figure 7.1](figures/ch07_fig1.svg)
+
+*Figure 7.1. The recursive GPA trap of Section 7.7, computed from the cumulative average with illustrative starting values. A student has six semesters at an average of 1.5 and needs 2.0, the graduation minimum the section uses as its example. The curves give the cumulative GPA after further semesters of equal weight at 4.0, 3.0 and 2.5. The threshold is reached after 2, 3 and 6 semesters, and each added semester moves the average less than the one before.*
+
 ## 7.8 Alex and the Advisor
 
 Alex's academic advisor uses a default curriculum plan: the same path for every engineering student, designed for the median student profile ($d_1 \approx 0.65$, $d_2 \approx 0.55$, uniform on other dimensions). The plan sequences courses in the traditional order: calculus, physics, differential equations, circuits, statics, dynamics, design.

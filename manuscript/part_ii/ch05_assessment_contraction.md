@@ -43,6 +43,10 @@ For a linear GPA function $G(\mathbf{x}) = \mathbf{w}^T \mathbf{x}$ with weight 
 
 This is not a pathological edge case. It is the normal operating condition of the GPA function. Every GPA value is compatible with hundreds of qualitatively different learner states, and no amount of GPA data can distinguish between them.
 
+![Figure 5.1](figures/ch05_fig1.svg)
+
+*Figure 5.1. Theorems 5.1 and 5.2 in the smallest case, two dimensions and one score. The plane is d1 against d2 with the other four dimensions held fixed, and the lines are level sets of a linear score with the weights 0.60 and 0.25 of Section 1.3. The states x and y are different points on one level set, so the score sends both to the same value c. No rule that starts from c alone can return x for one student and y for the other.*
+
 ## 5.3 Irrecoverability
 
 **Theorem 5.2 (Irrecoverability).** *If $G: \mathcal{L} \to \mathbb{R}$ is not injective (which it is, by Theorem 5.1, whenever $d \geq 2$), then no left inverse exists: there is no function $\psi: \mathbb{R} \to \mathcal{L}$ such that $\psi(G(\mathbf{x})) = \mathbf{x}$ for all $\mathbf{x} \in \mathcal{L}$.*
@@ -92,6 +96,10 @@ $$\mathbf{x}_{\text{Alex}}(4) \approx (0.70, \; 0.90, \; 0.80, \; 0.75, \; 0.85,
 Moderate $d_1$. Strong $d_2$ through $d_6$.
 
 The GPA says Ethan (3.7) is a better student than Alex (3.2). The Euclidean distance from the origin says $\|\mathbf{x}_{\text{Ethan}}\| \approx 1.33$ and $\|\mathbf{x}_{\text{Alex}}\| \approx 1.93$. Alex is further from ignorance on the full manifold. But the scalar says the opposite.
+
+![Figure 5.2](figures/ch05_fig2.svg)
+
+*Figure 5.2. The two trajectories of Section 5.4.1, dimension by dimension, for Alex and Ethan, who are illustrative composite students. Open marks are the states at entry (Section 1.3) and filled marks are the states after four years. Ethan moves mainly along d1 and Alex moves on five of the six dimensions. The chapter gives Ethan a GPA of 3.7 and Alex 3.2, and the norms of the four-year states are 1.33 and 1.93.*
 
 ## 5.5 Corollaries
 

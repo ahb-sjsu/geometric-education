@@ -124,6 +124,10 @@ The cost of navigating without a heuristic is well-quantified in search theory: 
 
 The educational analogue: a first-generation student without a heuristic field will eventually find the path to the degree (given sufficient time, resources, and persistence), but the path will be longer, more expensive, and involve more dead ends than the path of a student guided by a well-calibrated heuristic. The additional path cost is measurable: first-generation students take, on average, 1.5 to 2 semesters longer to complete a degree, change majors more frequently, and have higher rates of late withdrawal from courses --- all indicators of exploratory search without heuristic guidance.
 
+![Figure 6.1](figures/ch06_fig1.svg)
+
+*Figure 6.1. The search-theory fact that Section 6.4.1 cites, on a small grid with a wall; a schematic, with counts that belong to this grid and are not educational data. Both searches find a path of the same length, 26 steps. With no estimate of the remaining cost (h = 0) the search examines 249 of the 256 open cells before it reaches the goal. Guided by an estimate of the remaining cost (here the grid distance to the goal with the wall ignored) it examines 94.*
+
 ## 6.5 The Four Heuristic Failure Modes in Teaching
 
 The four failure modes from *Geometric Reasoning* (Ch. 5--8) have direct educational instantiations:

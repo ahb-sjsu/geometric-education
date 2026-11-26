@@ -118,6 +118,10 @@ This question was addressed informally in Chapters 1--3. Here the answer is form
 
 The proposition is empirical: it is verified by checking each scenario against the dimensional decomposition. Whether six is the *right* number --- whether additional dimensions (e.g., social/collaborative skill, emotional regulation, ethical reasoning) are needed, or whether some dimensions are redundant in specific educational contexts --- is an open empirical question addressed in Chapter 18.
 
+![Figure 4.1](figures/ch04_fig1.svg)
+
+*Figure 4.1. The six scenarios of Proposition 4.1 against the six dimensions. A filled mark means the proposition lists that dimension as activated. Every scenario activates at least three dimensions, and each dimension is activated by at least two scenarios, so no dimension can be dropped without losing part of some scenario. The counts at the right and at the bottom are row and column totals.*
+
 ## 4.4 The Learner Metric
 
 The metric tensor $g_{ij}$ on the learner manifold encodes the educational cost of transitions between learner states. It determines what "close" and "far" mean on the manifold --- which transitions are easy (nearby states) and which are hard (distant states).
@@ -219,6 +223,10 @@ The distinction matters because prerequisite boundaries are navigational constra
 The goal region is not a point but a region. A degree does not require a specific learner state --- it requires any state within the acceptable region. Two students who satisfy the same degree requirements may occupy very different points in the goal region: different elective choices, different depth-breadth trade-offs, different profiles of strengths and weaknesses. The transcript records the trajectory; the GPA contracts the endpoint to a scalar.
 
 Different stakeholders define different goal regions. The university defines a goal region (degree requirements). The employer defines a different goal region (job competencies). The student defines a third goal region (personal learning objectives). These goal regions may overlap but are not identical. A student who satisfies the university's goal region (degree earned) may not satisfy the employer's goal region (practical skills for the job) or the student's own goal region (deep understanding of the field). The misalignment between goal regions is a source of educational frustration that the geometric framework makes explicit.
+
+![Figure 4.2](figures/ch04_fig2.svg)
+
+*Figure 4.2. A schematic of Definition 4.4 and Section 4.8, in two of the six dimensions, with illustrative thresholds and no data. A goal region is the set of states at or above a minimum vector, so it is a corner-shaped region and not a point, and different stakeholders set different minimum vectors. Graduate P lies in the university's region and outside the employer's and the student's own. Graduate Q lies in all three.*
 
 ## 4.9 The Heuristic Field
 

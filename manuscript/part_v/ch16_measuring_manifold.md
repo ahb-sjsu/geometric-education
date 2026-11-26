@@ -54,6 +54,10 @@ The empirical question is: can we infer the manifold's metric from these observe
 
 **Connection to the framework.** Knowledge space theory is a discrete approximation of the learner manifold. The geometric framework provides the continuous generalization: the knowledge space is a simplicial complex embedded in the continuous learner manifold, and the operations of knowledge space theory (learning, forgetting, assessment) are discrete approximations of manifold operations (geodesic traversal, metric contraction, position estimation).
 
+![Figure 16.1](figures/ch16_fig1.svg)
+
+*Figure 16.1. A small illustrative knowledge space of the kind Section 16.2.4 describes, built from two prerequisite chains the book uses as examples: pre-calculus before Calculus I before Calculus II, and linear algebra before quantum mechanics. Each box is a knowledge state, a set of mastered skills that contains the prerequisites of everything in it; of the 32 subsets of the five skills, 12 are states. A line joins two states that differ by one skill, and learning moves upward along the lines. The highlighted route is one of the possible orders.*
+
 ## 16.3 The Falsifiable Prediction Suite
 
 The geometric framework for education generates six falsifiable predictions, each with specific experimental designs.
