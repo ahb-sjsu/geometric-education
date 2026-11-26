@@ -78,8 +78,8 @@
 <p><strong>Action if failed.</strong> Reduce stakes (use portfolio-based assessment, multiple low-stakes assessments rather than single high-stakes exams). Minimize identity salience in testing environments.</p>
 <h2 id="c3-composite-gauge-invariance-score">C.3 Composite Gauge Invariance Score</h2>
 <p>The overall gauge invariance of an assessment is summarized by the composite gauge invariance score:</p>
-<p>$$\text{GIS} = 1 - \frac{1}{5}\sum_{k=1}^{5} \min(d_k / d_{\text{threshold},k}, \; 1.0)$$</p>
-<p>where $d_k$ is the effect size for gauge transformation $k$ and $d_{\text{threshold},k}$ is the threshold for that transformation. GIS ranges from 0 (maximally gauge-variant) to 1 (perfectly gauge-invariant).</p>
+<p>$$\text{GIS} = 1 - \frac{1}{5}\sum_{k=1}^{5} \min(|d_k| / d_{\text{threshold},k}, \; 1.0)$$</p>
+<p>where $|d_k|$ is the absolute effect size for gauge transformation $k$ and $d_{\text{threshold},k}$ is the threshold for that transformation. GIS ranges from 0 (maximally gauge-variant) to 1 (perfectly gauge-invariant).</p>
 <ul>
 <li>GIS $\geq 0.80$: Assessment is adequately gauge-invariant for most purposes.</li>
 <li>GIS $0.60$&ndash;$0.80$: Assessment has moderate gauge violations; use with caution for high-stakes decisions.</li>
