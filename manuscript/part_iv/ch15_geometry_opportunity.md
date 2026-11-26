@@ -14,7 +14,7 @@
 
 ## 15.1 Metric Inequality
 
-Educational opportunity is not primarily about access to content. In the internet age, Khan Academy and MIT OpenCourseWare provide free access to content of the highest quality. A student with a phone and an internet connection can access the same lectures, the same problem sets, and the same explanations as a student at MIT.
+Educational opportunity is not primarily about access to content.[^1] In the internet age, Khan Academy and MIT OpenCourseWare provide free access to content of the highest quality. A student with a phone and an internet connection can access the same lectures, the same problem sets, and the same explanations as a student at MIT.
 
 Yet the outcomes are not the same. The student at MIT learns more, faster, and deeper. The reason is not content access but metric: the cost of traversing each learning transition is different for different students, and the differences correlate with structural conditions --- wealth, stability, support, safety, health --- that the student cannot control.
 

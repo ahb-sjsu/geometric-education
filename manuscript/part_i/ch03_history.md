@@ -71,7 +71,7 @@ The conversion from letter grades to GPA (A = 4.0, B = 3.0, etc.) adds a further
 
 ## 3.4 Dewey's Geometric Intuition (1916)
 
-John Dewey's *Democracy and Education* (1916) is the most geometrically sophisticated work of educational philosophy written before the geometric vocabulary existed. Dewey's central arguments are manifold arguments, expressed in the language of experience and growth:
+John Dewey's *Democracy and Education* (1916)[^5] is the most geometrically sophisticated work of educational philosophy written before the geometric vocabulary existed. Dewey's central arguments are manifold arguments, expressed in the language of experience and growth:
 
 **Learning is a trajectory, not a state.** "Education is not preparation for life; education is life itself." Dewey rejected the factory model's representation of learning as a scalar endpoint (the grade, the diploma). He insisted that learning is a *process* --- a path through experience, with each experience building on the last and opening new possibilities. In the geometric framework, this is the claim that learning is geodesic traversal on the learner manifold: the trajectory is the fundamental object, not the endpoint.
 
@@ -87,7 +87,7 @@ Dewey's philosophy had limited impact on assessment practice. Progressive educat
 
 ## 3.5 Bloom's Taxonomy: Naming the Dimensions (1956)
 
-Benjamin Bloom's *Taxonomy of Educational Objectives* (1956) is the most influential dimensional analysis of learning ever published. Bloom identified six levels of cognitive engagement:
+Benjamin Bloom's *Taxonomy of Educational Objectives* (1956)[^1] is the most influential dimensional analysis of learning ever published. Bloom identified six levels of cognitive engagement:
 
 1. **Knowledge** --- recall of facts and basic concepts
 2. **Comprehension** --- understanding the meaning of information
@@ -112,7 +112,7 @@ The geometric framework explains why the discarding happens: the institutional i
 
 ## 3.6 Gardner's Multiple Intelligences: Expanding the Manifold (1983)
 
-Howard Gardner's *Frames of Mind* (1983) argued that intelligence is not a single dimension (IQ, $g$-factor) but at least eight:
+Howard Gardner's *Frames of Mind* (1983)[^2] argued that intelligence is not a single dimension (IQ, $g$-factor) but at least eight:
 
 1. Linguistic intelligence
 2. Logical-mathematical intelligence
@@ -139,7 +139,7 @@ The learner manifold of Chapter 4 proposes six dimensions that are chosen for gr
 
 ## 3.7 Vygotsky's Zone of Proximal Development: Local Geometry (1934/1978)
 
-Lev Vygotsky's Zone of Proximal Development (ZPD) is the most explicitly geometric concept in educational psychology, though Vygotsky did not use geometric language.
+Lev Vygotsky's Zone of Proximal Development (ZPD)[^3] is the most explicitly geometric concept in educational psychology, though Vygotsky did not use geometric language.
 
 The ZPD is defined as the distance between what a learner can do independently and what a learner can do with guidance. In the geometric framework, this is a neighborhood on the learner manifold: the set of states reachable from the student's current position with teacher support but not independently.
 
@@ -163,7 +163,7 @@ Two students with the same current performance ($d_1 = 0.50$, say) may have very
 
 ## 3.8 Freire's Critical Pedagogy: The Political Geometry (1968)
 
-Paulo Freire's *Pedagogy of the Oppressed* (1968) reframes education as a political act and introduces concepts that the geometric framework formalizes.
+Paulo Freire's *Pedagogy of the Oppressed* (1968)[^4] reframes education as a political act and introduces concepts that the geometric framework formalizes.
 
 **The banking model.** Freire's critique of the "banking model" of education --- in which the teacher deposits knowledge into the student as a banker deposits money into an account --- is a critique of the scalar model of learning. The banking model treats the student as a one-dimensional container: empty or full, measured by how much has been deposited. Learning is the accumulation of deposits (incrementing a scalar). The teacher's job is to make deposits. The student's job is to receive them.
 
@@ -191,8 +191,8 @@ The Scantron trade-off is the trade-off of the entire history traced in this cha
 | Medieval (500 CE) | Demonstration | Moderate (3-4) | Low (1:few) | Low (master-dependent) |
 | Prussian (1800) | Examinations | Low (1-2) | Moderate | Low (examiner-dependent) |
 | Bloom (1956) | Taxonomic tests | 6 named, 1 scored | High | Low |
-| Gardner (1983) | Differentiated | 8 named, 1 scored | High | Low |
 | Scantron (1972) | Machine-scored | 1 | Very high | Very low |
+| Gardner (1983) | Differentiated | 8 named, 1 scored | High | Low |
 
 The table reveals the trade-off clearly: as assessment scales up, it loses dimensions. The Socratic method captures all six dimensions for one student. The Scantron captures one dimension for millions. The history of educational assessment is the history of this trade-off, and every reform movement --- Dewey, Bloom, Gardner, Vygotsky, Freire --- has attempted to recover some of the lost dimensions without giving up the scalability. None has fully succeeded.
 

@@ -9,7 +9,7 @@
 
 > **THE FEEDBACK**
 >
-> *Each domain in the Geometric Series is both an application of the general framework and a source of insight that the general framework cannot generate on its own. Education is the domain that teaches the general theory five lessons, each extending the parent framework in ways that other domains did not.*
+> *Each domain in the Geometric Series is both an application of the general framework and a source of insight that the general framework cannot generate on its own. Education is the domain that teaches the general theory five lessons, each extending the parent framework in ways that other domains did not.*[^1]
 
 ---
 
@@ -52,18 +52,18 @@ Education forces the general theory to confront agent-specific metrics because t
 
 ## 17.4 Scalar Irrecoverability Is Worst at High Stakes/Low Dimension
 
-Education demonstrates that the damage from scalar contraction is proportional to the stakes/dimension ratio.
+Education demonstrates that the damage from scalar contraction grows with the stakes and with the fraction of dimensions the contraction loses.
 
 - **Low stakes, many dimensions** (classroom discussion: many signals, low consequences): tolerable. The teacher observes multiple dimensions in real time and does not need to contract them to a scalar.
 - **Low stakes, few dimensions** (a homework problem: one signal, low consequences): harmless. The contraction loses little because the input is already low-dimensional.
 - **High stakes, many dimensions** (SAT score: one number, life-changing consequences): catastrophic. The contraction destroys five of six dimensions, and the one-dimensional output determines admission, scholarships, and self-concept.
 - **High stakes, few dimensions** (a driver's license test: one skill, clear criterion): appropriate. The contraction loses little because the input is nearly one-dimensional.
 
-**Lesson for the general theory.** The general framework should formalize the stakes/dimension ratio as a measure of contraction severity:
+**Lesson for the general theory.** The general framework should formalize the stakes-dimension product as a measure of contraction severity:
 
 $$\text{Severity}(G, \mathbf{x}) = \text{Stakes}(G(\mathbf{x})) \times \frac{d - k}{d}$$
 
-where $d$ is the dimensionality of the input, $k$ is the dimensionality of the output, and $\text{Stakes}$ is a function of the consequences attached to the output value. This ratio provides a principled criterion for when scalar contraction is tolerable and when it is catastrophic.
+where $d$ is the dimensionality of the input, $k$ is the dimensionality of the output, and $\text{Stakes}$ is a function of the consequences attached to the output value. This product provides a principled criterion for when scalar contraction is tolerable and when it is catastrophic.
 
 ![Figure 17.1](figures/ch17_fig1.svg)
 
@@ -93,7 +93,7 @@ Education is the domain where manifold growth is most dramatic, most observable,
 | Intergenerational heuristic transmission | Hidden curriculum, first-gen penalty | Heuristic genealogy as structural advantage |
 | Universal assessment moral injury | Grading moral injury | Forced contraction as universal evaluative harm |
 | Agent-specific metrics | Student-dependent learning costs | Multi-metric manifolds |
-| Stakes/dimension severity ratio | SAT vs. classroom discussion | Formalized contraction severity measure |
+| Stakes-dimension severity product | SAT vs. classroom discussion | Formalized contraction severity measure |
 | Dynamic manifolds | Learning changes the manifold | Topology that grows with agent action |
 
 Each lesson extends the general theory by identifying a phenomenon that education makes visible but that exists, in weaker form, across all domains. The general theory inherits five extensions from education, just as it inherited the Klein four-group $V_4$ of the Hohfeldian positions from ethics, the moral injury accumulation theorem from medicine, and the parallel transport model of translation from communication.
@@ -102,7 +102,7 @@ Each lesson extends the general theory by identifying a phenomenon that educatio
 
 ## Summary
 
-This chapter has identified five lessons that the domain of education teaches the general geometric framework: (1) heuristic fields can be intergenerationally transmitted, creating structural advantages that the general theory should model; (2) moral injury from forced contraction is universal in evaluative institutions; (3) the metric varies by agent, not just by context, requiring agent-specific metrics as a first-class concept; (4) the severity of scalar contraction depends on the stakes/dimension ratio, which should be formalized; and (5) the learner manifold grows during learning, requiring the general theory to accommodate dynamic manifolds with changing topology.
+This chapter has identified five lessons that the domain of education teaches the general geometric framework: (1) heuristic fields can be intergenerationally transmitted, creating structural advantages that the general theory should model; (2) moral injury from forced contraction is universal in evaluative institutions; (3) the metric varies by agent, not just by context, requiring agent-specific metrics as a first-class concept; (4) the severity of scalar contraction depends on the stakes-dimension product, which should be formalized; and (5) the learner manifold grows during learning, requiring the general theory to accommodate dynamic manifolds with changing topology.
 
 ---
 

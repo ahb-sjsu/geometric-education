@@ -4,7 +4,7 @@
 
 **Target**: ~100,000–120,000 words (18 chapters + appendices)
 **Empirical basis**: GPA Irrecoverability Theorem, learner manifold construction, pedagogical heuristic field formalism, transfer learning as parallel transport, Educational Bond Index, gauge invariance of assessment, standardized testing as forced contraction, LMS learning analytics for empirical metric estimation, moral injury in teaching, AI tutoring systems
-**Existing material**: SERIES_OUTLINES.md (template), Geometric Ethics Ch. 16 (Bond Index), Geometric Reasoning Ch. 3–5 (heuristic field, geodesic deviation, failure modes), Geometric Cognition Ch. 3–6 (cognitive manifold, attention as metric, working memory as tangent space), Geometric Medicine Ch. 13–15 (moral injury theory)
+**Existing material**: SERIES_OUTLINES.md (template), Geometric Ethics Ch. 21, Def. 21.10 (clinical Bond Index), Geometric Reasoning Ch. 3–5 (heuristic field, geodesic deviation, failure modes), Geometric Cognition Ch. 3–6 (cognitive manifold, attention as metric, working memory as tangent space), Geometric Medicine Ch. 13–15 (moral injury theory)
 
 ---
 
@@ -36,7 +36,7 @@ By the book's end, Alex has graduated, entered a teaching credential program, an
 - Ch. 11 (BIP) → Ch. 9 (assessment gauge invariance), Ch. 14 (testing as gauge violation)
 
 ### From Geometric Ethics:
-- Ch. 16 (Bond Index) → Ch. 13 (Educational Bond Index)
+- Ch. 21, Def. 21.10 (clinical Bond Index; not the Bond Index of GE Ch. 18) → Ch. 13 (Educational Bond Index)
 - Ch. 15 (Moral Contraction) → Ch. 3 (history of scalar reduction in education), Ch. 5 (GPA as contraction)
 - Ch. 21 (Moral Injury Theory) → Ch. 8 (moral injury in teaching)
 
@@ -79,7 +79,7 @@ Why education evaluates students by scalar metrics — GPA, SAT scores, class ra
 
 *Alex's thread*: Alex and Ethan sit next to each other in freshman orientation. Same university, same intended major (engineering), same 3.5 GPA. The orientation leader says: "You're all equally prepared." Alex knows this is false. Alex can rebuild a carburetor from memory and debug electrical systems by sound — procedural knowledge invisible to transcripts. Ethan has taken AP Calculus BC and AP Physics C — domain knowledge perfectly aligned with transcript capture. The GPA says they are equal. The manifold says they occupy different points in a six-dimensional space, with nearly zero overlap.
 
-*Key example*: The 3.5 Decomposition. We construct two explicit learner tensors — Alex's and Ethan's — showing identical GPA contractions from radically different multi-dimensional states. We then show that no function of GPA can distinguish them, no matter how many semesters of GPA data are collected. The information is destroyed at the moment of contraction and cannot be recovered.
+*Key example*: The 3.5 Decomposition. We construct two explicit learner tensors — Alex's and Ethan's — showing the same 3.5 GPA from radically different multi-dimensional states (the illustrative linear weighting of Chapter 1 separates them by only 0.0785). We then show that no function of GPA can distinguish them, no matter how many semesters of GPA data are collected. The information is destroyed at the moment of contraction and cannot be recovered.
 
 **2. The Testing Industrial Complex**
 
@@ -254,7 +254,7 @@ If learning is geodesic traversal on the learner manifold, what happens when an 
 
 *Automated grading as automated contraction*: AI grading systems perform the same scalar contraction as human grading, but faster and at scale. The Scalar Irrecoverability Theorem applies identically: automated grading destroys the same dimensions that human grading destroys. The advantage of automation is efficiency. The disadvantage is that the moral injury of the contraction — which in human teachers produces a corrective signal (the teacher feels bad about the inaccurate grade, and this feeling is information) — is absent. The AI grades without remorse, which means it contracts without the feedback mechanism that might motivate reform.
 
-*The No Escape Theorem for educational AI*: From Geometric Ethics (Ch. 19), an AI system operating within the geometric framework cannot escape the manifold's structure. An educational AI constrained by the learner manifold cannot produce recommendations that violate the manifold's geometry — it cannot recommend skipping prerequisites (non-existent edges), cannot assess dimensions it does not measure (the projection is still lossy), and cannot optimize a scalar objective without the divergence predicted by the GPA Irrecoverability Theorem. The theorem provides structural guarantees: educational AI cannot be better than geometric education, only faster.
+*The No Escape Theorem for educational AI*: From Geometric Ethics (Ch. 18, Theorem 18.1, a conditional theorem), an AI system operating within the geometric framework cannot escape the manifold's structure. An educational AI constrained by the learner manifold cannot produce recommendations that violate the manifold's geometry — it cannot recommend skipping prerequisites (non-existent edges), cannot assess dimensions it does not measure (the projection is still lossy), and cannot optimize a scalar objective without the divergence predicted by the GPA Irrecoverability Theorem. The theorem provides structural guarantees: educational AI cannot be better than geometric education, only faster.
 
 *What AI can do*: Rapid metric estimation (inferring the student's metric from observed trajectories), adaptive pathfinding (adjusting the curriculum in real time based on estimated curvature), scale (providing heuristic guidance to millions of students simultaneously). What AI cannot do: gauge-invariant assessment (measuring understanding independent of format), moral judgment about the contraction (knowing when the grade is a lie), and the human heuristic recalibration that comes from a teacher who sees the student as a point on a manifold, not a number in a gradebook.
 
@@ -278,7 +278,7 @@ The measurement chapter. The Educational Bond Index BI(P, S) quantifies the expe
 
 *The Bond Index is not a subjective judgment*: It is computed from measurable quantities — course availability from institutional data, class sizes from registrar records, student outcomes from transcript data, metric estimates from learning analytics. "Policy P is structurally unjust toward population S" becomes an empirical claim with a numerical value, not a political opinion.
 
-*Alex's thread*: Alex's college has an equity office that tracks graduation rates and average GPA by demographic group. These are scalar comparisons of scalar outcomes. Alex, now a graduate student in education, computes the Educational Bond Index for the university's engineering program. The result: BI(P_engineering, S_first_gen) = 2.1x BI(P_engineering, S_continuing_gen). First-generation students are not failing because they are less capable — they are failing because their geodesics are longer, their heuristic field is sparser, and the institutional path is calibrated for a different metric. Alex presents the result to the dean. For the first time, "structural inequality" has a number.
+*Alex's thread*: Alex's college has an equity office that tracks graduation rates and average GPA by demographic group. These are scalar comparisons of scalar outcomes. In an illustrative scenario (the study and its numbers are hypothetical; Chapter 13, Section 13.5), Alex, now a graduate student in education, computes the Educational Bond Index for the university's engineering program. The hypothetical result: BI(P_engineering, S_first_gen) = 2.1x BI(P_engineering, S_continuing_gen). First-generation students are not failing because they are less capable — they are failing because their geodesics are longer, their heuristic field is sparser, and the institutional path is calibrated for a different metric. Alex presents the result to the dean. For the first time, "structural inequality" has a number.
 
 **14. Standardized Testing as Gauge Violation**
 
@@ -292,7 +292,7 @@ SAT scores are not gauge-invariant: they vary systematically with socioeconomic 
 
 *Test-optional as partial gauge fix*: The post-2020 movement toward test-optional admissions is an institutional response to gauge violation — removing the gauge-variant instrument from the decision function. The geometric framework supports this: a gauge-variant measurement is worse than no measurement, because it introduces systematic bias that masquerades as information. But test-optional is a negative solution (removing bad data) rather than a positive one (developing gauge-invariant assessment). The geometric framework points toward the positive alternative: assessments designed from the start to satisfy gauge invariance.
 
-*Alex's thread*: Alex's SAT score of 1180 carried a gauge violation of approximately 150 points — the estimated SES effect for a first-generation, working-class student with no professional test preparation. Alex's "true" score — the score that would have been obtained with SES gauge invariance — is approximately 1330. But the admissions office does not see the gauge violation. It sees 1180. Alex's application is filtered by a gauge-variant instrument, and the injustice is invisible because it appears as a "score" rather than a "measurement artifact."
+*Alex's thread*: Alex's SAT score of 1180 carried a gauge violation of approximately 150–200 points (illustrative; Alex is a composite student) — the estimated SES effect for a first-generation, working-class student with no professional test preparation. Alex's "true" score — the score that would have been obtained with SES gauge invariance — is approximately 1330–1380. But the admissions office does not see the gauge violation. It sees 1180. Alex's application is filtered by a gauge-variant instrument, and the injustice is invisible because it appears as a "score" rather than a "measurement artifact."
 
 **15. The Geometry of Educational Opportunity**
 
@@ -332,7 +332,7 @@ The empirical chapter. The framework's central empirical challenge: estimating t
 5. *Metric inequality*: Students from under-resourced backgrounds show steeper learning curves (higher curvature) on early assignments, consistent with higher metric distance for the same content transitions.
 6. *Moral injury in teaching*: Teachers who assign grades they believe to be inaccurate show measurable stress responses (survey-based) that dissociate from workload-based burnout.
 
-*Alex's thread*: Alex, now a doctoral student in education, designs a study using LMS data from three semesters of introductory engineering courses. By clustering student trajectories, Alex identifies four distinct learner profiles — all with average GPAs within 0.2 of each other. Profile 1 (formal-first): high d_1, low d_2. Profile 2 (procedural-first): high d_2, low d_1 — Alex's profile. Profile 3 (metacognitive): high d_3, moderate d_1 and d_2. Profile 4 (creative): high d_6, variable d_1. The GPA is identical. The learner states are geometrically distant. The GPA Irrecoverability Theorem, confirmed empirically.
+*Alex's thread*: In an illustrative scenario (hypothetical results; Chapter 16, Section 16.4), Alex, now a doctoral student in education, designs a study using LMS data from three semesters of introductory engineering courses. By clustering student trajectories, Alex identifies four distinct learner profiles — all with average GPAs within 0.2 of each other. Profile 1 (formal-first): high d_1, low d_2. Profile 2 (procedural-first): high d_2, low d_1 — Alex's profile. Profile 3 (metacognitive): high d_3, moderate d_1 and d_2. Profile 4 (creative): high d_6, variable d_1. The GPA is identical. The learner states are geometrically distant. This is what an empirical confirmation of the GPA Irrecoverability Theorem would look like.
 
 **17. What Education Teaches the General Theory**
 
@@ -344,7 +344,7 @@ The feedback chapter — what the domain of education contributes to the parent 
 
 *The metric varies by person, not just by context*: In medicine, the clinical metric varies by clinical context (ICU vs. primary care). In education, the metric varies by individual student. Every student has a different metric on the same manifold. This is a stronger form of metric variation than the general theory describes — not context-dependent metrics but agent-dependent metrics. The general theory should incorporate agent-specific metrics as a first-class concept.
 
-*Scalar irrecoverability is worst in high-stakes, low-dimensional assessment*: Education demonstrates that the damage from scalar contraction is proportional to the stakes/dimension ratio. Low stakes, many dimensions (classroom discussion — many signals, low consequences) = tolerable. High stakes, one dimension (SAT score — one number, life-changing consequences) = catastrophic. The general theory should formalize this ratio as a measure of contraction severity.
+*Scalar irrecoverability is worst in high-stakes, low-dimensional assessment*: Education demonstrates that the damage from scalar contraction grows with the stakes and with the fraction of dimensions lost (a stakes-dimension product). Low stakes, many dimensions (classroom discussion — many signals, low consequences) = tolerable. High stakes, one dimension (SAT score — one number, life-changing consequences) = catastrophic. The general theory should formalize this ratio as a measure of contraction severity.
 
 *The developmental dimension*: Unlike other domains, education operates on a manifold that is growing. The clinical manifold is (approximately) fixed — the patient's physiology does not change topology during treatment. The learner manifold changes topology during learning: new connections form, new dimensions become accessible, the manifold literally grows. The general theory should accommodate dynamic manifolds — manifolds whose topology changes as the agent traverses them.
 
@@ -398,8 +398,8 @@ The frontier, honestly stated. What the geometric framework for education does n
 | Manifold deviation measure | GR Ch. 4 | Ch. 13 (Educational Bond Index as deviation) |
 | 9-dimensional moral manifold | GE Ch. 5 | Ch. 4 (6D learner manifold, related construction) |
 | Moral contraction | GE Ch. 15 | Ch. 5 (GPA as contraction), Ch. 8 (grading as moral injury) |
-| Bond Index (general) | GE Ch. 16 | Ch. 13 (Educational Bond Index) |
-| No Escape Theorem | GE Ch. 19 | Ch. 12 (educational AI constraints) |
+| Clinical Bond Index | GE Ch. 21, Def. 21.10 (the Bond Index of GE Ch. 18 is a different quantity) | Ch. 13 (Educational Bond Index) |
+| No Escape Theorem | GE Ch. 18, Theorem 18.1 (conditional) | Ch. 12 (educational AI constraints) |
 | Moral injury theory | GE Ch. 21, GMed Ch. 13 | Ch. 8 (grading as moral injury) |
 | Cognitive manifold | GCog Ch. 3 | Ch. 4 (learner manifold inherits cognitive structure) |
 | Attention as metric | GCog Ch. 4 | Ch. 10 (personalized learning as metric adaptation) |

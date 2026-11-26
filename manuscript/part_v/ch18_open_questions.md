@@ -8,7 +8,7 @@
 
 > **THE FRONTIER**
 >
-> *This chapter is honest about what the geometric framework for education does not yet explain and where the next breakthroughs might come. Each question is genuine --- not a rhetorical device but an unsolved problem that the author does not know how to solve.*
+> *This chapter is honest about what the geometric framework for education does not yet explain and where the next breakthroughs might come. Each question is genuine --- not a rhetorical device but an unsolved problem that the author does not know how to solve.*[^1]
 
 ---
 
@@ -28,7 +28,7 @@ The challenges are formidable:
 
 ## 18.2 What Is the Conservation Law for Education?
 
-If the educational Lagrangian is invariant under student re-description (the assessment BIP), Noether's theorem implies a conserved quantity. What is it?
+If the educational Lagrangian is invariant under student re-description (the assessment BIP), and if that invariance is under a continuous group of transformations, Noether's theorem implies a conserved quantity. What is it?
 
 **Candidate: total understanding.** The manifold position that is preserved across re-descriptions --- the "true" learner state that is invariant under gauge transformations. But this is circular without an independent definition of "understanding" that does not reference the manifold position.
 
@@ -36,7 +36,7 @@ If the educational Lagrangian is invariant under student re-description (the ass
 
 **Candidate: educational potential.** The distance from the student's current position to the boundary of the accessible manifold --- the set of states the student could reach with optimal guidance. But this depends on the metric, which depends on structural conditions, which means educational potential is not a property of the student alone but of the student-environment system.
 
-The conservation law question is genuinely open. The geometric framework predicts that a conservation law exists (because a symmetry exists), but the framework does not specify what the conserved quantity is. Identifying it would be a significant advance.
+The conservation law question is genuinely open. The geometric framework suggests that a conservation law may exist (because a symmetry exists). Noether's theorem needs a continuous symmetry, however, and the five gauge transformations of Chapter 9 are discrete swaps, so the suggestion holds only if a continuous family of re-descriptions is intended. The framework does not specify what the conserved quantity is. Identifying it would be a significant advance.
 
 ## 18.3 Is the Learner Manifold Riemannian?
 
@@ -104,4 +104,4 @@ This chapter has honestly stated the open questions of the geometric framework f
 
 ---
 
-[^1]: The tradition of concluding with open questions follows the series protocol established in *Geometric Ethics* (Bond, 2026b, Ch. 30) and maintained across all domain books.
+[^1]: The tradition of concluding with open questions follows the series protocol established in *Geometric Ethics* (Bond, 2026b, Ch. 29, "Open Problems") and maintained across all domain books.

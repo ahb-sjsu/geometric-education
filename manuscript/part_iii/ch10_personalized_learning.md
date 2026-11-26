@@ -15,7 +15,7 @@
 
 ## 10.1 The Metric Varies Across Students
 
-The learner metric $g_{ij}(\mathbf{x})$ is position-dependent: the cost of a learning transition depends on where the student currently stands on the manifold. But it is also *student*-dependent: two students at the same position may experience different costs for the same transition, because their cognitive profiles, prior experiences, and learning dispositions create different local geometries.
+The learner metric $g_{ij}(\mathbf{x})$ is position-dependent: the cost of a learning transition depends on where the student currently stands on the manifold. But it is also *student*-dependent: two students at the same position may experience different costs for the same transition, because their cognitive profiles, prior experiences, and learning dispositions create different local geometries.[^1]
 
 This is a stronger form of metric variation than the general theory in *Geometric Reasoning* describes. In medicine, the clinical metric varies by clinical context (ICU vs. primary care). In law, the legal metric varies by jurisdiction. In education, the metric varies by individual student. Every student has a different metric on the same manifold.
 

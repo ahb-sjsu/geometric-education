@@ -23,7 +23,7 @@ The curriculum path is not the same as the student's actual trajectory. The curr
 
 ## 7.2 A* Through the Knowledge Space
 
-Optimal curriculum design is pathfinding on the learner manifold. The mathematical framework is A* search, with the following components:
+Optimal curriculum design is pathfinding on the learner manifold. The mathematical framework is A* search,[^1] with the following components:
 
 **Start state:** The incoming student's position $\mathbf{x}_0$ on the learner manifold. In practice, this is estimated from placement tests ($d_1$ only), prior transcripts ($d_1$ primarily), and self-reports (unreliable). The quality of the start-state estimate determines the quality of the pathfinding: if $\mathbf{x}_0$ is estimated poorly, the planned path begins from the wrong point on the manifold.
 

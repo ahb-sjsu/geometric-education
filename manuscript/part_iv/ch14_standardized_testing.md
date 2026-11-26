@@ -28,9 +28,11 @@ If the test measured understanding gauge-invariantly, the correlation with incom
 
 ### 14.2.1 Decomposing the SES Gauge Violation
 
+> **Note (2026-11-26).** The point values in this section, in Sections 14.3 and 14.4 and in Section 14.8 are this chapter's estimates. The book gives no source for them. The effects of language and of context are reported in standard deviations in the works cited in Sections 9.3.3 and 9.3.5 (Abedi, 2002; Steele and Aronson, 1995), but their conversion to SAT points, and every other range here, is an estimate. They are rough magnitudes, not measurements.
+
 The SES gauge violation decomposes into identifiable components:
 
-**Test preparation access ($\Delta V_{\text{prep}} \approx 60$--$100$ points).** High-SES students have access to expensive test preparation that low-SES students do not. As argued in Chapter 2, test preparation is primarily projection optimization (motion along the fiber), not learning. The score improvement from test prep is gauge violation: the learner state has not changed; the projection has.
+**Test preparation access ($\Delta V_{\text{prep}} \approx 60$--$100$ points).** High-SES students have access to expensive test preparation that low-SES students do not. As argued in Chapter 2, test preparation is primarily projection optimization (motion across the fibers), not learning. The score improvement from test prep is gauge violation: the learner state has not changed; the projection has.
 
 **Testing conditions ($\Delta V_{\text{conditions}} \approx 20$--$40$ points).** Testing conditions affect performance independently of understanding. A student who is well-rested, well-fed, and free from anxiety performs better than a student who is tired, hungry, and stressed. These conditions correlate with SES: high-SES students are more likely to arrive at the test well-rested, well-fed, and free from financial stress.
 
@@ -44,13 +46,13 @@ Total SES gauge violation: approximately 130--230 points. This is the estimated 
 
 For English Language Learner (ELL) students, the SAT administers a content assessment in a second language. The content (mathematical reasoning, reading comprehension, analytical thinking) is the same; only the linguistic coordinate system has changed.
 
-Research consistently finds 0.5--1.0 standard deviation effects for ELL students on content assessments administered in English versus their home language. On the SAT scale, this corresponds to approximately 80--200 points.
+Effects of 0.5--1.0 standard deviation are reported for ELL students on content assessments administered in English versus their home language (Abedi, 2002, cited in Section 9.3.3). On the SAT scale, this chapter estimates the effect at approximately 80--200 points.
 
 The language gauge violation is particularly clear because the content and the language are separable. A bilingual student who understands mathematics equally well in Spanish and English should score equally well on a mathematics test regardless of language. If the score is lower in English, the difference measures the linguistic gauge violation: the extent to which the SAT measures English proficiency rather than mathematical understanding.
 
 ## 14.4 The Gauge Violation Tensor for the SAT
 
-Assembling the evidence from Sections 14.2--14.3 and extending with the format and context effects from Chapter 9:
+Assembling the estimates of Sections 14.2--14.3 and the format, context and time estimates of Chapter 9:
 
 | Gauge transformation ($i$) | Estimated $V_{i,\text{total}}$ | Direction of bias |
 |---------------------------|-------------------------------|------------------|
@@ -60,7 +62,7 @@ Assembling the evidence from Sections 14.2--14.3 and extending with the format a
 | Context swap | 50--100 points | Stereotype-threat groups depressed |
 | Time swap | 10--30 points | Variable |
 
-The gauge violations are not independent: they interact multiplicatively. A low-SES, ELL student taking the SAT for the first time in a high-stakes context experiences the compound effect of multiple gauge violations. The total gauge violation for this student may be 300--500 points --- nearly a third of the SAT's range.
+The gauge violations are not independent, and the rows overlap: the SES row already contains format familiarity and test anxiety (Section 14.2.1), which overlap with what the format and context rows count. The rows sum to 320--710 points, and because of the overlap the compound effect for one student is less than that sum. A low-SES, ELL student taking the SAT for the first time in a high-stakes context experiences the compound effect of multiple gauge violations. The total gauge violation for this student may be, as a rough estimate, 300--500 points --- nearly a third of the SAT's range.
 
 ## 14.5 The Correlation as Evidence of Gauge Violation
 
@@ -102,7 +104,7 @@ No current standardized test satisfies all five conditions. The SAT satisfies (1
 
 ## 14.8 Alex's Gauge Violation
 
-Alex's SAT score of 1180 carried a gauge violation of approximately 150--200 points --- the estimated compound effect of SES (no test prep, stressful testing conditions, first-in-family), format (unfamiliarity with SAT-specific conventions), and context (high-stakes unfamiliar environment).
+Alex is the volume's composite student, and the figures in this section are illustrative. Alex's SAT score of 1180 carried a gauge violation of approximately 150--200 points --- the estimated compound effect of SES (no test prep, stressful testing conditions, first-in-family), format (unfamiliarity with SAT-specific conventions), and context (high-stakes unfamiliar environment).
 
 Alex's "true" score --- the score that would have been obtained under gauge-invariant conditions --- is unknowable but estimated at approximately 1330--1380. This estimate is consistent with Alex's college performance: after adjusting to the college environment (and receiving gauge-invariant assessment from Professor Vasquez via oral examination), Alex performs at a level consistent with a 1350-range SAT score.
 
@@ -112,7 +114,7 @@ The admissions office saw 1180. It did not see the gauge violation. It saw a num
 
 ## Summary
 
-This chapter has stated and argued for the Standardized Testing Gauge Violation Theorem: standardized test scores vary systematically with SES, language, format, and context in ways that violate the Assessment Gauge Invariance condition. The gauge violation tensor has been estimated for the SAT, with total violations of 300--500 points for multiply-disadvantaged students. The SAT-income correlation is partially attributable to gauge violation rather than genuine manifold position difference, as evidenced by the test-optional natural experiment. Test-optional admissions is a negative solution (removing bad data); the positive solution is gauge-invariant assessment designed from the start to satisfy all five invariance conditions. The chapter provides design criteria for gauge-invariant standardized assessment.
+This chapter has stated and argued for the Standardized Testing Gauge Violation Theorem: standardized test scores vary systematically with SES, language, format, and context in ways that violate the Assessment Gauge Invariance condition. The gauge violation tensor has been estimated for the SAT, roughly and without a source for its point values, with total violations of perhaps 300--500 points for multiply-disadvantaged students. The SAT-income correlation is partially attributable to gauge violation rather than genuine manifold position difference, as evidenced by the test-optional natural experiment. Test-optional admissions is a negative solution (removing bad data); the positive solution is gauge-invariant assessment designed from the start to satisfy all five invariance conditions. The chapter provides design criteria for gauge-invariant standardized assessment.
 
 ---
 

@@ -41,7 +41,7 @@ Domains with different structure --- mathematics and ethics, engineering and lit
 
 A student who learns "optimization" in calculus and attempts to transport it to ethics (maximize the good) encounters high curvature. The mathematical structure does not transfer cleanly: ethics has boundaries (rights, duties, sacred values) that calculus does not. The transported concept arrives rotated: "maximize the good" is not the same as "set the derivative to zero," because the ethical manifold has constraints that the calculus manifold lacks. The holonomy is large.
 
-Far transfer is rare because the curvature is high. Educational research calls this "vertical transfer" or "far transfer" and documents it infrequently: students who learn concepts in one domain rarely apply them spontaneously to distant domains, even when the structural analogy is apt.
+Far transfer is rare because the curvature is high. Educational research calls this "vertical transfer" or "far transfer"[^1] and documents it infrequently: students who learn concepts in one domain rarely apply them spontaneously to distant domains, even when the structural analogy is apt.
 
 ### 11.2.3 Negative Transfer: Path-Dependent Distortion
 
@@ -114,7 +114,7 @@ And recognizes it.
 
 This is the engine. The vibrating engine mount. The one that Alex spent three hours troubleshooting last summer, when a customer's car had a resonance problem at 3000 RPM that disappeared at higher and lower speeds. Alex had solved the problem mechanically --- adding a damper pad to the engine mount --- without knowing the mathematics. Now, in the Differential Equations course, Alex sees the mathematics of the solution that Alex had already found physically.
 
-The eigenvalue structure of the differential equation is the same mathematical object as the resonance frequency that Alex had been diagnosing by ear for years. The critical damping condition ($c^2 = 4mk$) is the condition that determines whether the engine mount vibration dies out quickly (overdamped), oscillates and fades (underdamped), or resonates indefinitely (undamped). Alex had been finding this condition by trial and error --- adding damping material until the vibration stopped. The mathematics provides the systematic version of what Alex's hands already knew.
+The eigenvalue structure of the differential equation is the same mathematical object as the resonance frequency that Alex had been diagnosing by ear for years. The critical damping condition ($c^2 = 4mk$) is the boundary between the engine mount vibration dying out without oscillating (overdamped, $c^2 > 4mk$) and oscillating as it fades (underdamped, $c^2 < 4mk$); with no damping at all ($c = 0$) it oscillates indefinitely (undamped). Alex had been finding this condition by trial and error --- adding damping material until the vibration stopped. The mathematics provides the systematic version of what Alex's hands already knew.
 
 The holonomy is small. The domains are structurally isomorphic: the differential equation describes the same physics whether it is written in mathematical notation or experienced as engine vibration. The transfer is near-lossless because the curvature between mechanical engineering and differential equations is low.
 

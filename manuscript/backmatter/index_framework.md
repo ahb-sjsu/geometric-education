@@ -16,7 +16,7 @@ This index lists the major concepts of the geometric framework for education, wi
 
 ## B
 
-**Bond Index, Educational.** $\text{BI}(P, S)$: the expected learning deviation imposed on population $S$ by policy $P$. Def. 13.1, Ch. 13.1. *Series: GE Ch. 16 (general Bond Index).*
+**Bond Index, Educational.** $\text{BI}(P, S)$: the expected learning deviation imposed on population $S$ by policy $P$. Def. 13.1, Ch. 13.1. *Series: GE Ch. 21, Def. 21.10 (clinical Bond Index); a different quantity from the Bond Index of GE Ch. 18.*
 
 **Boundary, educational.** A threshold on the learner manifold where the accessible region changes: prerequisite, institutional, or developmental. Def. 4.3, Ch. 4.7.
 
@@ -112,7 +112,7 @@ This index lists the major concepts of the geometric framework for education, wi
 
 ## N
 
-**No Escape Theorem for educational AI.** Theorem 12.1: AI constrained by the learner manifold cannot escape its structure. Ch. 12.3. *Series: GE Ch. 19.*
+**No Escape Theorem for educational AI.** Theorem 12.1: AI constrained by the learner manifold cannot escape its structure. Ch. 12.3. *Series: GE Ch. 18, Theorem 18.1 (a conditional theorem).*
 
 ## P
 

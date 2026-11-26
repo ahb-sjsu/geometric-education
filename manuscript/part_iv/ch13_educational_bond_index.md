@@ -8,7 +8,7 @@
 
 > **THE MEASUREMENT**
 >
-> *The Educational Bond Index BI(P, S) quantifies the expected deviation between the learner's geodesic on the full manifold and the path mandated or enabled by institutional policy P for student population S. It transforms "structural inequality" from a philosophical claim into an empirical measurement, computed from data that every university already collects.*
+> *The Educational Bond Index BI(P, S) quantifies the expected deviation between the learner's geodesic on the full manifold and the path mandated or enabled by institutional policy P for student population S. It transforms "structural inequality" from a philosophical claim into an empirical measurement, to be computed largely from data that universities already collect (Section 18.1 states the limits of that data).*
 
 ---
 
@@ -18,7 +18,9 @@
 
 $$\text{BI}(P, S) = \mathbb{E}_{\mathbf{x} \sim S}\left[\text{LD}(\gamma_P^*(\mathbf{x})) - \text{LD}(\gamma_\mathcal{L}^*(\mathbf{x}))\right]$$
 
-*where $\gamma_P^*(\mathbf{x})$ is the policy-constrained path (the learning trajectory available to a student at position $\mathbf{x}$ under the institution's rules, resources, and norms), $\gamma_\mathcal{L}^*(\mathbf{x})$ is the geodesic (the optimal trajectory on the full manifold), and $\text{LD}(\gamma)$ is the total learning deviation --- the integrated distance between the actual path and the geodesic, summed across all six dimensions.*
+*where $\gamma_P^*(\mathbf{x})$ is the policy-constrained path (the learning trajectory available to a student at position $\mathbf{x}$ under the institution's rules, resources, and norms), $\gamma_\mathcal{L}^*(\mathbf{x})$ is the geodesic (the optimal trajectory on the full manifold), and $\text{LD}(\gamma)$ is the total learning deviation --- the integrated distance between the actual path and the geodesic, summed across all six dimensions.*[^1]
+
+The second term is zero, since the geodesic's learning deviation from itself vanishes; it is written to show the comparison, and Section 13.3.3 computes the first term alone.
 
 The Bond Index measures the gap between what is and what could be. A high BI means that the institutional policy forces students onto paths that are substantially longer, more costly, and more inefficient than their geodesics. A BI of zero means the policy imposes no deviation: students are free to follow their optimal paths. No real institution achieves BI = 0, but the gap between actual BI and zero is the quantification of structural inefficiency.
 
@@ -70,7 +72,7 @@ This inequality arises not from college policy alone but from the interaction be
 
 ## 13.3 Computing the Bond Index
 
-The Bond Index is computable from data that most institutions already collect. The computation proceeds in three steps:
+The Bond Index is meant to be computable from data that most institutions already collect, with one limit: Section 18.1 notes that three of the six dimensions ($d_3$, $d_5$, $d_6$) have weak or no projection onto routine LMS data and may not be identifiable from it. The computation proceeds in three steps:
 
 ### 13.3.1 Step 1: Estimate the Learner Metric
 
@@ -154,4 +156,4 @@ This chapter has defined the Educational Bond Index, set out its computation, an
 
 ---
 
-[^1]: The Bond Index construction follows the general Bond Index from *Geometric Ethics* (Bond, 2026b, Ch. 16), adapted for educational institutions. The educational version uses six dimensions rather than nine and replaces clinical-moral boundaries with prerequisite and institutional boundaries.
+[^1]: The Bond Index construction follows the clinical Bond Index, *Geometric Ethics*, Definition 21.10 (Bond, 2026b, Ch. 21), adapted for educational institutions. It shares a name with the Bond Index of *Geometric Ethics* (Ch. 18), which measures how much an evaluation changes under re-descriptions that should not change it, and is a different quantity. The educational version uses six dimensions rather than nine and replaces clinical-moral boundaries with prerequisite and institutional boundaries.

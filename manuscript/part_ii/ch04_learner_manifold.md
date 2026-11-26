@@ -116,7 +116,7 @@ This question was addressed informally in Chapters 1--3. Here the answer is form
 
 *No scenario activates only one dimension. Every scenario activates at least three dimensions. No proper subset of the six dimensions suffices for all scenarios.*
 
-The proposition is empirical: it is verified by checking each scenario against the dimensional decomposition. Whether six is the *right* number --- whether additional dimensions (e.g., social/collaborative skill, emotional regulation, ethical reasoning) are needed, or whether some dimensions are redundant in specific educational contexts --- is an open empirical question addressed in Chapter 18.
+The proposition is checked by reading off the dimensions each scenario is listed as activating: each of the six appears in at least one scenario, so no proper subset covers them all (scenarios 1 and 3 list the same four). Whether the listed activations are right is an empirical question. Whether six is the *right* number --- whether additional dimensions (e.g., social/collaborative skill, emotional regulation, ethical reasoning) are needed, or whether some dimensions are redundant in specific educational contexts --- is an open empirical question addressed in Chapter 18.
 
 ![Figure 4.1](figures/ch04_fig1.svg)
 

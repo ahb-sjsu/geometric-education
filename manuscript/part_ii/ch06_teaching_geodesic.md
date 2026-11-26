@@ -31,7 +31,7 @@ The pedagogical heuristic is not a number the teacher consciously computes. It i
 
 ### 6.1.2 Shulman's Pedagogical Content Knowledge
 
-Lee Shulman's (1986) concept of pedagogical content knowledge (PCK) --- the specialized knowledge of how to teach specific content to specific students --- is precisely the calibration of the heuristic function for a specific domain and student population.
+Lee Shulman's (1986)[^1] concept of pedagogical content knowledge (PCK) --- the specialized knowledge of how to teach specific content to specific students --- is precisely the calibration of the heuristic function for a specific domain and student population.
 
 A teacher with strong PCK in calculus knows:
 - How far a typical student is from understanding limits after the first lecture ($h_T$ for post-lecture states)
@@ -122,7 +122,7 @@ This reframing has practical implications. If first-generation difficulty is cau
 
 The cost of navigating without a heuristic is well-quantified in search theory: A* with $h = 0$ degenerates to uniform-cost search (Dijkstra's algorithm), which explores states in order of cost-from-start without any estimate of cost-to-goal. Uniform-cost search is complete (it finds the goal) but maximally inefficient (it explores every state up to the geodesic cost).
 
-The educational analogue: a first-generation student without a heuristic field will eventually find the path to the degree (given sufficient time, resources, and persistence), but the path will be longer, more expensive, and involve more dead ends than the path of a student guided by a well-calibrated heuristic. The additional path cost is measurable: first-generation students take, on average, 1.5 to 2 semesters longer to complete a degree, change majors more frequently, and have higher rates of late withdrawal from courses --- all indicators of exploratory search without heuristic guidance.
+The educational analogue: a first-generation student without a heuristic field will eventually find the path to the degree (given sufficient time, resources, and persistence), but the path will be longer, more expensive, and involve more dead ends than the path of a student guided by a well-calibrated heuristic. The additional path cost is measurable in principle: first-generation students are estimated to take, on average, 1.5 to 2 semesters longer to complete a degree (this chapter gives no source for the figure), change majors more frequently, and have higher rates of late withdrawal from courses --- all indicators of exploratory search without heuristic guidance.
 
 ![Figure 6.1](figures/ch06_fig1.svg)
 

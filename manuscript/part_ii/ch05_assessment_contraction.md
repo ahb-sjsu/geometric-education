@@ -49,7 +49,7 @@ This is not a pathological edge case. It is the normal operating condition of th
 
 ## 5.3 Irrecoverability
 
-**Theorem 5.2 (Irrecoverability).** *If $G: \mathcal{L} \to \mathbb{R}$ is not injective (which it is, by Theorem 5.1, whenever $d \geq 2$), then no left inverse exists: there is no function $\psi: \mathbb{R} \to \mathcal{L}$ such that $\psi(G(\mathbf{x})) = \mathbf{x}$ for all $\mathbf{x} \in \mathcal{L}$.*
+**Theorem 5.2 (Irrecoverability).** *If $G: \mathcal{L} \to \mathbb{R}$ is not injective (which it is, by Theorem 5.1, whenever $d \geq 2$), then no left inverse exists: there is no function $\psi: \mathbb{R} \to \mathcal{L}$ such that $\psi(G(\mathbf{x})) = \mathbf{x}$ for all $\mathbf{x} \in \mathcal{L}$.*[^1]
 
 *Proof.* Suppose $\psi$ exists. Let $\mathbf{x} \neq \mathbf{y}$ with $G(\mathbf{x}) = G(\mathbf{y}) = c$. Then $\psi(c) = \psi(G(\mathbf{x})) = \mathbf{x}$ and $\psi(c) = \psi(G(\mathbf{y})) = \mathbf{y}$. Since $\psi(c)$ is a single point, $\mathbf{x} = \mathbf{y}$, contradicting $\mathbf{x} \neq \mathbf{y}$. $\square$
 

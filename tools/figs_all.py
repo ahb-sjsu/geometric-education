@@ -56,8 +56,8 @@ DIST = norm([a - b for a, b in zip(ALEX0, ETHAN0)])
 G_ALEX, G_ETHAN = dot(W_GPA, ALEX0), dot(W_GPA, ETHAN0)
 N_ALEX4, N_ETHAN4 = norm(ALEX4), norm(ETHAN4)
 assert abs(DIST ** 2 - 0.61) < 1e-9 and f"{DIST:.2f}" == "0.78"
-assert abs(G_ALEX - 0.593) < 1e-9 and abs(G_ETHAN - 0.6715) < 1e-9      # the chapter prints 0.593 and 0.671
-assert abs(G_ETHAN - 0.671) < 6e-4 and abs((0.671 - 0.593) - 0.078) < 1e-12
+assert abs(G_ALEX - 0.593) < 1e-9 and abs(G_ETHAN - 0.6715) < 1e-9      # the chapter prints 0.593 and 0.6715
+assert abs((G_ETHAN - G_ALEX) - 0.0785) < 1e-9                         # Section 1.4.1 prints 0.0785
 assert abs(N_ALEX4 ** 2 - 3.715) < 1e-9 and f"{N_ALEX4:.2f}" == "1.93"
 assert abs(N_ETHAN4 ** 2 - 1.7725) < 1e-9 and f"{N_ETHAN4:.2f}" == "1.33"
 assert abs(sum(W_GPA) - 1) < 1e-12 and abs(sum(W_SAT) - 1) < 1e-12
@@ -90,8 +90,8 @@ def fig_01_1():
             "The 3.5 Decomposition, drawn from the two learner vectors of Section 1.3; Alex and Ethan are "
             "illustrative composite students. Each axis of the radar plot is one of the six dimensions, from 0 at "
             "the centre to 1 at the rim. The two shapes are nearly complementary, and the two states are 0.78 "
-            "apart in six dimensions. The illustrative linear weighting G of Section 1.3 places them 0.078 apart "
-            "(0.593 and 0.671), and both transcripts read 3.5.",
+            "apart in six dimensions. The illustrative linear weighting G of Section 1.3 places them 0.0785 apart "
+            "(0.593 and 0.6715), and both transcripts read 3.5.",
             "## 1.4 What the Contraction Destroys")
     c = Canvas(720, 440, "Two profiles of different shape, one number on the transcript")
     cx, cy, R = 220, 238, 128
@@ -121,8 +121,8 @@ def fig_01_1():
     c.text(x0 + w * DIST + 8, 114, "0.78", 11, "start", INK)
     c.text(x0, 136, "distance between the two states", 10.5, "start", INK2)
     c.text(x0, 180, "After the contraction G", 12, "start", INK, "600")
-    c.hrect(x0, 190, w * 0.078, 16, SERIES[2], title="separation of the two projected values 0.078")
-    c.text(x0 + w * 0.078 + 8, 202, "0.078", 11, "start", INK)
+    c.hrect(x0, 190, w * 0.0785, 16, SERIES[2], title="separation of the two projected values 0.0785")
+    c.text(x0 + w * 0.0785 + 8, 202, "0.0785", 11, "start", INK)
     c.text(x0, 224, "separation of the two projected values", 10.5, "start", INK2)
     ly = 290
     c.line(x0, ly, x0 + w, ly, INK3, 1.5)
@@ -130,9 +130,9 @@ def fig_01_1():
         c.line(x0 + w * v, ly - 4, x0 + w * v, ly + 4, INK3, 1.5)
         c.text(x0 + w * v, ly + 18, f"{v:g}", 10.5, "middle", INK2)
     c.dot(x0 + w * G_ALEX, ly, SERIES[0], 4, title="G(Alex) = 0.593")
-    c.dot(x0 + w * 0.671, ly, SERIES[1], 4, title="G(Ethan) = 0.671")
+    c.dot(x0 + w * G_ETHAN, ly, SERIES[1], 4, title="G(Ethan) = 0.6715")
     c.text(x0 + w * G_ALEX - 8, ly - 12, "Alex 0.593", 10.5, "end", INK)
-    c.text(x0 + w * 0.671 + 8, ly - 12, "Ethan 0.671", 10.5, "start", INK)
+    c.text(x0 + w * G_ETHAN + 8, ly - 12, "Ethan 0.6715", 10.5, "start", INK)
     c.text(x0, ly + 40, "the line of G, same scale as the bars", 10.5, "start", INK2)
     c.text(x0, 372, "Both transcripts read GPA 3.5", 12, "start", INK, "600")
     note(c, "illustrative composite students; vectors and weights from Section 1.3")
@@ -142,7 +142,7 @@ def fig_01_1():
 def fig_01_2():
     p = reg(CH[1], "1.2",
             "Where the projected value comes from, for the illustrative weighting G of Section 1.3. The top bar is the "
-            "weight on each dimension. The two lower bars split G for Alex (0.593) and for Ethan (0.671) into the "
+            "weight on each dimension. The two lower bars split G for Alex (0.593) and for Ethan (0.6715) into the "
             "six products of weight and coordinate. Domain knowledge and procedural skill supply almost all of each "
             "total, and the four remaining dimensions, where the two illustrative students differ most, supply little.",
             "### 1.4.2 Symmetry Structure: What Transformations Preserve")
@@ -150,7 +150,7 @@ def fig_01_2():
     x0, w = 150, 500
     rows = [("weights of G", W_GPA, "1.00"),
             ("Alex", tuple(a * b for a, b in zip(W_GPA, ALEX0)), "0.593"),
-            ("Ethan", tuple(a * b for a, b in zip(W_GPA, ETHAN0)), "0.671")]
+            ("Ethan", tuple(a * b for a, b in zip(W_GPA, ETHAN0)), "0.6715")]
     printed = {"Alex": (0.270, 0.213, 0.035, 0.040, 0.023, 0.013), "Ethan": (0.480, 0.125, 0.020, 0.028, 0.012, 0.007)}
     for name, vals in printed.items():
         mine = rows[1][1] if name == "Alex" else rows[2][1]

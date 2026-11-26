@@ -80,11 +80,11 @@ For each assessment evaluated with the AGITB, report:
 
 | Gauge Transformation | Effect Size $d_k$ | Threshold | Pass/Fail | Action |
 |---------------------|-------------------|-----------|-----------|--------|
-| Examiner | | 0.80 (kappa) | | |
+| Examiner | | 0.80 (kappa) or 0.85 (ICC) | | |
 | Format | | 0.20 (Cohen's d) | | |
 | Language | | 0.20 (Cohen's d) | | |
 | Time | | 0.15 (Cohen's d) | | |
-| Context | | 0.20 (Cohen's d) | | |
+| Context | | 0.20 overall; 0.30 per subgroup (Cohen's d) | | |
 | **Composite GIS** | | **0.80** | | |
 
 ## C.5 Implementation Notes

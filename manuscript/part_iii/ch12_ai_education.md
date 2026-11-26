@@ -26,7 +26,7 @@ Large language model tutors --- ChatGPT, Claude, Gemini, and their educational d
 
 ### 12.1.2 Weaknesses of the AI Heuristic
 
-**Cannot measure the student's actual position.** The AI tutor infers the student's position on the manifold from text --- from the student's questions, answers, and self-reports. It cannot observe the student's metacognitive processes ($d_3$), emotional state ($d_4$), or physical skill ($d_2$). Its position estimate is a projection of the learner state onto the dimensions accessible through text interaction.
+**Cannot measure the student's actual position.** The AI tutor infers the student's position on the manifold from text --- from the student's questions, answers, and self-reports. It cannot observe the student's metacognitive processes ($d_3$), emotional state ($d_4$), or physical skill (the hands-on part of $d_2$; symbolic procedures, the other part, it can see). Its position estimate is a projection of the learner state onto the dimensions accessible through text interaction.
 
 **No gauge-invariant assessment.** The AI tutor evaluates surface performance: the correctness of answers, the fluency of explanations, the adherence to expected formats. It cannot distinguish a student who understands deeply but writes informally (high understanding, low surface compliance) from a student who writes fluently but understands shallowly (low understanding, high surface compliance). Its assessment is gauge-variant under format transformation.
 
@@ -59,7 +59,7 @@ An AI grading system has no moral injury. It contracts without discomfort. It pr
 3. *The AI cannot optimize a scalar objective without the divergence predicted by the GPA Irrecoverability Theorem.*
 4. *The AI cannot provide gauge-invariant assessment without multi-format, multi-context, multi-modal evaluation.*
 
-*The theorem provides structural guarantees: educational AI cannot be better than geometric education, only faster.*
+*The theorem provides structural guarantees: educational AI cannot be better than geometric education, only faster.*[^1]
 
 ### 12.3.1 Proof Sketch
 
@@ -111,4 +111,4 @@ This chapter has examined AI in education through the geometric lens. LLM tutors
 
 ---
 
-[^1]: The No Escape Theorem for educational AI is an instantiation of the general No Escape Theorem from *Geometric Ethics* (Bond, 2026b, Ch. 19), which establishes that AI systems operating within a geometric ethical framework cannot escape the framework's structural constraints.
+[^1]: The No Escape Theorem for educational AI is an instantiation of the general No Escape Theorem, *Geometric Ethics*, Theorem 18.1 (Bond, 2026b, Ch. 18), a conditional theorem there, which states, on its four requirements, that AI systems operating within a geometric ethical framework cannot escape the framework's structural constraints.

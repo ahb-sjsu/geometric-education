@@ -42,7 +42,7 @@ Five meaning-preserving transformations of the assessment instrument are identif
 
 **Expected invariance:** If the assessment measures understanding, the grade should not depend on who reads the work.
 
-**Empirical evidence:** Inter-rater reliability for subjective assessments (essays, oral exams, portfolios) is typically below 0.70 (Cohen's kappa). The same essay, graded by two different instructors, may receive grades differing by a full letter. The variance is not random: it is correlated with the grader's background, expectations, and implicit standards.
+**Empirical evidence:** Inter-rater reliability for subjective assessments (essays, oral exams, portfolios) is often below 0.70 (Cohen's kappa), by an estimate for which this chapter gives no source. The same essay, graded by two different instructors, may receive grades differing by a full letter. The variance is not random: it is correlated with the grader's background, expectations, and implicit standards.
 
 **Geometric interpretation:** The assessment function $A$ depends on the grader $I$ as well as the learner state $\mathbf{x}$. The grade is not a property of the student alone but a property of the student-grader pair. The grader introduces gauge variance: the measured score changes under examiner transformation.
 
@@ -76,7 +76,7 @@ Five meaning-preserving transformations of the assessment instrument are identif
 
 **Expected invariance:** If the assessment measures stable understanding, the measured level should not depend on when the test is given.
 
-**Empirical evidence:** Chronobiological effects on test performance are well-documented. Students perform better on cognitive tasks in the late morning than in the early morning or afternoon. End-of-semester fatigue depresses scores relative to mid-semester. Day-of-week effects are modest but detectable.
+**Empirical evidence:** Chronobiological effects on test performance are widely reported, though this chapter gives no source for the effects that follow. Students perform better on cognitive tasks in the late morning than in the early morning or afternoon. End-of-semester fatigue depresses scores relative to mid-semester. Day-of-week effects are modest but detectable.
 
 **Geometric interpretation:** The student's position on the learner manifold (their understanding) is approximately stable across these time intervals. The variance in scores reflects the interaction between the student's cognitive state (fatigue, alertness, stress) and the testing conditions, not a change in understanding. Time-dependent variance is gauge violation.
 
@@ -112,7 +112,9 @@ For the SAT, the gauge violation tensor has large entries:
 | Time swap | 10--30 points (chronobiological) |
 | Context swap | 50--100 points (stereotype threat) |
 
-The total gauge violation --- the sum of the absolute values of $V_{ij}$ across all transformations --- is on the order of 200--500 SAT points. This means that a student's "true" score (the score that would be obtained under gauge-invariant conditions) may differ from the observed score by 200--500 points, depending on the student's demographic and contextual characteristics.
+The point values are estimates. The language and context effects are reported in standard deviations by the works cited in Sections 9.3.3 and 9.3.5 (Abedi, 2002; Steele and Aronson, 1995); their conversion to SAT points, and the format and time rows, have no source in this book.
+
+The total gauge violation --- the sum of the absolute values of $V_{ij}$ across all transformations --- is, on these estimates, 190--480 points, on the order of 200--500 SAT points. This means that a student's "true" score (the score that would be obtained under gauge-invariant conditions) may differ from the observed score by 200--500 points, depending on the student's demographic and contextual characteristics.
 
 ## 9.5 What Gauge Invariance Buys Us
 
@@ -138,7 +140,7 @@ The gauge violation tensor for this pair of assessments has an entry of approxim
 
 ## Summary
 
-This chapter has developed the Assessment Gauge Invariance Theorem: the condition that valid assessment must be invariant under meaning-preserving re-description of the assessment instrument. Five gauge transformations (examiner swap, format swap, language swap, time swap, context swap) are identified, and typical educational assessments are shown to fail gauge invariance on all five. The gauge violation tensor quantifies the degree and direction of each violation. The gauge invariance framework provides a precise, testable definition of assessment validity that is stronger than traditional psychometric validity. Most educational assessments have gauge violations on the order of 0.5--1.0 standard deviations, meaning that the measured score is as much a property of the instrument and context as of the student's understanding.
+This chapter has developed the Assessment Gauge Invariance Theorem: the condition that valid assessment must be invariant under meaning-preserving re-description of the assessment instrument. Five gauge transformations (examiner swap, format swap, language swap, time swap, context swap) are identified, and typical educational assessments are shown to fail gauge invariance on all five. The gauge violation tensor quantifies the degree and direction of each violation. The gauge invariance framework provides a precise, testable definition of assessment validity that is stronger than traditional psychometric validity. On the estimates of Section 9.4, educational assessments can have gauge violations on the order of 0.5--1.0 standard deviations, meaning that the measured score is as much a property of the instrument and context as of the student's understanding.
 
 ---
 

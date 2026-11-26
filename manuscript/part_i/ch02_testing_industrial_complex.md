@@ -9,7 +9,7 @@
 
 > **THE INDUSTRY**
 >
-> *The standardized testing industry in the United States generates approximately $2.5 billion in annual revenue. The College Board --- a nonprofit in name, a monopoly in practice --- reported revenues exceeding $1.2 billion in 2023. The Educational Testing Service, which administers the GRE, TOEFL, and Praxis, reported over $1.5 billion. Pearson, which provides state standardized tests to dozens of states, is a publicly traded company with a market capitalization exceeding $8 billion. This is not an assessment system. It is an industry. And like every industry, it has interests that are not identical to the interests of the people it serves.*
+> *The standardized testing industry in the United States generates approximately \$2.5 billion in annual revenue. The College Board --- a nonprofit in name, a monopoly in practice --- reported revenues exceeding \$1.2 billion in 2023. The Educational Testing Service, which administers the GRE, TOEFL, and Praxis, reported over \$1.5 billion. Pearson, which provides state standardized tests to dozens of states, is a publicly traded company with a market capitalization exceeding \$8 billion. This is not an assessment system. It is an industry. And like every industry, it has interests that are not identical to the interests of the people it serves.*
 >
 > *This chapter examines the standardized testing industry through the geometric lens: each test is a projection from the learner manifold onto a low-dimensional subspace, and the projection is designed not to maximize educational insight but to maximize the properties that make a test commercially viable --- standardization, scalability, comparability, and legal defensibility. The geometric framework explains why these commercial constraints produce instruments that systematically destroy the dimensions of learning that matter most.*
 
@@ -57,13 +57,13 @@ The preimage of any SAT score is a five-dimensional hyperplane in the learner ma
 
 ## 2.2 Test Prep as Metric Gaming
 
-The test preparation industry is worth approximately $10 billion annually in the United States.[^1] Companies like Kaplan, Princeton Review, and their digital successors promise SAT score improvements of 100--200 points through systematic preparation. The geometric framework explains exactly what they are doing --- and what they are not doing.
+The test preparation industry is worth approximately \$10 billion annually in the United States.[^1] Companies like Kaplan, Princeton Review, and their digital successors promise SAT score improvements of 100--200 points through systematic preparation. The geometric framework explains exactly what they are doing --- and what they are not doing.
 
-### 2.2.1 Movement Along the Fiber
+### 2.2.1 Movement Across the Fibers
 
 Recall from Chapter 1 that the preimage of a SAT score is a five-dimensional fiber in the learner manifold. Test preparation moves the student along a direction that increases the projection value (the SAT score) without necessarily moving the student's base position on the manifold (their actual understanding).
 
-A student who learns to eliminate obvious wrong answers (a test-taking strategy, not a content skill) moves along a direction that has high projection onto $\mathbf{w}_{\text{SAT}}$ but low magnitude on the actual dimensions of understanding. The student's SAT score increases. The student's learner state barely changes. This is motion along the fiber: the projection changes, the base point does not.
+A student who learns to eliminate obvious wrong answers (a test-taking strategy, not a content skill) moves along a direction that has high projection onto $\mathbf{w}_{\text{SAT}}$ but low magnitude on the actual dimensions of understanding. The student's SAT score increases. The student's learner state barely changes. This is motion across the fibers, from one set of equal score to the next: the projection changes while the base point barely moves. (Motion along a fiber would leave the score unchanged.)
 
 Formally, let $\Delta \mathbf{x}_{\text{prep}}$ be the change in learner state produced by test preparation. We can decompose it into components parallel and perpendicular to the projection direction:
 
@@ -77,9 +77,9 @@ where $\Delta \mathbf{x}_{\parallel}$ is the component that changes the SAT scor
 
 ### 2.2.2 The Equity Dimension
 
-The $10 billion test preparation industry is not equally accessible. A comprehensive SAT prep course from Kaplan or Princeton Review costs $1,000--$2,500. Private tutoring costs $100--$300 per hour. A student who receives 100 hours of private tutoring has invested $10,000--$30,000 in projection optimization.
+The \$10 billion test preparation industry is not equally accessible. A comprehensive SAT prep course from Kaplan or Princeton Review costs \$1,000--\$2,500. Private tutoring costs \$100--\$300 per hour. A student who receives 100 hours of private tutoring has invested \$10,000--\$30,000 in projection optimization.
 
-The geometric framework makes the equity implication precise. Let $\Delta \text{SAT}_{\text{prep}}$ be the score improvement from test preparation. If prep is pure projection optimization (motion along the fiber with no change in base position), then:
+The geometric framework makes the equity implication precise. Let $\Delta \text{SAT}_{\text{prep}}$ be the score improvement from test preparation. If prep is pure projection optimization (motion across the fibers with no change in base position), then:
 
 $$\Delta \text{SAT}_{\text{prep}} = \mathbf{w}^T \Delta \mathbf{x}_{\text{prep}} \approx 100 \text{--} 200 \text{ points}$$
 
@@ -131,11 +131,11 @@ A scalar test has four properties that make it commercially valuable:
 
 ### 2.4.2 The Commercial Incentive Against Dimensional Expansion
 
-The testing industry has strong commercial incentives to resist dimensional expansion. A multi-dimensional assessment is harder to administer, harder to score, harder to compare, harder to defend legally, and harder to build a $10 billion prep industry around. A vector of scores does not produce the clean rank ordering that admissions offices use for screening. A profile of competencies does not fit in the SAT score box on the Common Application.
+The testing industry has strong commercial incentives to resist dimensional expansion. A multi-dimensional assessment is harder to administer, harder to score, harder to compare, harder to defend legally, and harder to build a \$10 billion prep industry around. A vector of scores does not produce the clean rank ordering that admissions offices use for screening. A profile of competencies does not fit in the SAT score box on the Common Application.
 
 The industry's resistance is not conspiratorial. It is structural. The College Board does not hold secret meetings to suppress multi-dimensional assessment. It responds to market incentives: colleges want a simple screening number, students want a clear target, and policymakers want a comparable metric. The demand is for scalars. The industry supplies scalars. The geometric damage is a byproduct of a commercial equilibrium, not a deliberate design.
 
-But the fact that the damage is unintentional does not make it less real. The $10 billion test prep industry profits from the gap between projection optimization and actual learning. The admissions consulting industry profits from the gap between transcript engineering and actual achievement. The tutoring industry profits from the gap between test-taking skill and domain understanding. These gaps are geometric --- they exist because the scalar projection creates a space between the projected value and the manifold position --- and they are monetized by industries that help students navigate the gap.
+But the fact that the damage is unintentional does not make it less real. The \$10 billion test prep industry profits from the gap between projection optimization and actual learning. The admissions consulting industry profits from the gap between transcript engineering and actual achievement. The tutoring industry profits from the gap between test-taking skill and domain understanding. These gaps are geometric --- they exist because the scalar projection creates a space between the projected value and the manifold position --- and they are monetized by industries that help students navigate the gap.
 
 ## 2.5 The Psychometric Defense and Its Limits
 
@@ -169,7 +169,7 @@ The COVID-19 pandemic produced an unplanned natural experiment in standardized t
 
 ### 2.6.1 What Happened
 
-By 2024, approximately 80% of four-year institutions in the United States had adopted test-optional policies for at least one admissions cycle. The immediate effect was a sharp decline in the number of students submitting test scores: at many institutions, only 50--60% of applicants submitted scores, down from near-universal submission.
+By 2024, approximately 80% of four-year institutions in the United States had adopted test-optional policies for at least one admissions cycle. The immediate effect was a sharp decline in the number of students submitting test scores: at many institutions, only 50--60% of applicants submitted scores, down from near-universal submission. (Both figures are estimates; this chapter gives no source for them.)
 
 The demographic composition of the non-submitting group was predictable from the geometric framework: students from lower-SES backgrounds, first-generation students, students from under-resourced schools, and underrepresented minority students were disproportionately likely to withhold scores. These are the students whose strengths are concentrated on non-tested dimensions ($d_2$ through $d_6$) and whose test scores are depressed by gauge violations (differential access to test preparation, differential familiarity with test format, differential impact of testing conditions).
 
@@ -197,7 +197,7 @@ In the mathematics section, Alex encounters problems that are structurally simil
 
 Alex scores 1180. Ethan, who took the same test after two years of private tutoring (Kaplan course plus 40 hours of one-on-one instruction), scores 1420.
 
-The 240-point gap does not measure the difference in their understanding. It measures the difference in four things: (1) domain knowledge alignment with SAT content ($d_1$ for SAT-tested material --- Ethan higher); (2) format familiarity (Ethan has taken dozens of practice tests --- Alex has taken two, from a free online source); (3) access to projection optimization (Ethan's $30,000 of test prep versus Alex's zero); and (4) testing conditions (Ethan slept well in a quiet room and was driven to the test by a parent who cheerfully discussed test strategy in the car; Alex slept poorly and worried about the fuel pump on the drive).
+The 240-point gap does not measure the difference in their understanding. It measures the difference in four things: (1) domain knowledge alignment with SAT content ($d_1$ for SAT-tested material --- Ethan higher); (2) format familiarity (Ethan has taken dozens of practice tests --- Alex has taken two, from a free online source); (3) access to projection optimization (Ethan's \$5,000--\$14,500 of test prep, a course and 40 hours of tutoring at the rates of Section 2.2.2, versus Alex's zero); and (4) testing conditions (Ethan slept well in a quiet room and was driven to the test by a parent who cheerfully discussed test strategy in the car; Alex slept poorly and worried about the fuel pump on the drive).
 
 Of these four factors, only the first --- domain knowledge alignment --- has any relationship to Alex's capacity for college-level work. The other three are gauge violations: they change the measured value without changing the underlying state. Alex's "true" SAT score --- the score that would be obtained in a gauge-invariant testing environment --- is unknowable from the data, but the direction of the bias is clear: the gauge violations uniformly depress Alex's score.
 
@@ -213,10 +213,10 @@ The alternative is multi-dimensional assessment designed from the start to satis
 
 ## Summary
 
-This chapter has examined the standardized testing industry as an institutionalized system of scalar contraction. The SAT projects a six-dimensional learner state onto a one-dimensional score, discarding procedural skill, metacognitive awareness, motivation, transfer ability, and creativity. The $10 billion test preparation industry profits from the gap between projection optimization and actual learning. The psychometric defenses of standardized testing --- reliability, validity, fairness --- are technically sound within the scalar framework and geometrically inadequate from the manifold perspective. The post-COVID natural experiment in test-optional admissions provided evidence that SAT scores are partially redundant with other available signals and that students admitted without scores perform comparably on scalar outcomes. The geometric framework explains why: the SAT is a redundant projection along a direction that other indicators also capture, and its unique contribution is screening convenience rather than diagnostic insight.
+This chapter has examined the standardized testing industry as an institutionalized system of scalar contraction. The SAT projects a six-dimensional learner state onto a one-dimensional score, discarding procedural skill, metacognitive awareness, motivation, transfer ability, and creativity. The \$10 billion test preparation industry profits from the gap between projection optimization and actual learning. The psychometric defenses of standardized testing --- reliability, validity, fairness --- are technically sound within the scalar framework and geometrically inadequate from the manifold perspective. The post-COVID natural experiment in test-optional admissions provided evidence that SAT scores are partially redundant with other available signals and that students admitted without scores perform comparably on scalar outcomes. The geometric framework explains why: the SAT is a redundant projection along a direction that other indicators also capture, and its unique contribution is screening convenience rather than diagnostic insight.
 
 ---
 
-[^1]: Exact figures for the test preparation industry are difficult to verify because many providers are privately held. The $10 billion estimate includes test prep courses, private tutoring, practice materials, and online preparation platforms. IBISWorld and MarketWatch have published estimates in this range.
+[^1]: Exact figures for the test preparation industry are difficult to verify because many providers are privately held. The \$10 billion estimate includes test prep courses, private tutoring, practice materials, and online preparation platforms. IBISWorld and MarketWatch have published estimates in this range.
 
 [^2]: Belasco, A. S., Rosinger, K. O., & Hearn, J. C. (2015). The test-optional movement at America's selective liberal arts colleges. *Educational Evaluation and Policy Analysis*, 37(2), 206--223. More recent data from the Common Application (2023) confirms the trend: test-optional admits show negligible differences in first-year academic performance relative to test-submitting admits, controlling for other application variables.
