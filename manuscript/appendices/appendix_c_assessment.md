@@ -66,9 +66,9 @@ The battery consists of five parallel assessments of the same content, each vary
 
 The overall gauge invariance of an assessment is summarized by the composite gauge invariance score:
 
-$$\text{GIS} = 1 - \frac{1}{5}\sum_{k=1}^{5} \min(d_k / d_{\text{threshold},k}, \; 1.0)$$
+$$\text{GIS} = 1 - \frac{1}{5}\sum_{k=1}^{5} \min(|d_k| / d_{\text{threshold},k}, \; 1.0)$$
 
-where $d_k$ is the effect size for gauge transformation $k$ and $d_{\text{threshold},k}$ is the threshold for that transformation. GIS ranges from 0 (maximally gauge-variant) to 1 (perfectly gauge-invariant).
+where $|d_k|$ is the absolute effect size for gauge transformation $k$ and $d_{\text{threshold},k}$ is the threshold for that transformation. GIS ranges from 0 (maximally gauge-variant) to 1 (perfectly gauge-invariant).
 
 - GIS $\geq 0.80$: Assessment is adequately gauge-invariant for most purposes.
 - GIS $0.60$--$0.80$: Assessment has moderate gauge violations; use with caution for high-stakes decisions.

@@ -8,7 +8,7 @@
 
 > **THE VIOLATION**
 >
-> *Chapter 9 established the Assessment Gauge Invariance Theorem: valid assessment must be invariant under meaning-preserving re-description of the instrument. This chapter applies the theorem to standardized testing and proves the Standardized Testing Gauge Violation Theorem: SAT scores are not gauge-invariant, and the variance is systematic, directional, and measurable.*
+> *Chapter 9 established the Assessment Gauge Invariance Theorem: valid assessment must be invariant under meaning-preserving re-description of the instrument. This chapter applies the theorem to standardized testing and states the Standardized Testing Gauge Violation Theorem: SAT scores are not gauge-invariant, and the variance is systematic, directional, and measurable.*
 
 ---
 
@@ -16,7 +16,7 @@
 
 **Theorem 14.1 (Standardized Testing Gauge Violation).** *Standardized test scores are not gauge-invariant: they vary systematically with socioeconomic status, first language, cultural background, and test format in ways that violate the Assessment Gauge Invariance condition (Theorem 9.1). The variance is not measurement noise --- it is systematic gauge violation, measurable by the gauge violation tensor $V_{ij}$ where $i$ indexes the gauge transformation and $j$ indexes the score dimension.*
 
-The proof is empirical: it consists of demonstrating that each of the five gauge transformations identified in Chapter 9 produces systematic, non-random score changes on standardized tests.
+The case for it is empirical: it consists of arguing that each of the five gauge transformations identified in Chapter 9 produces systematic, non-random score changes on standardized tests.
 
 ## 14.2 SES as Gauge Transformation
 
@@ -74,7 +74,7 @@ The geometric framework addresses this defense directly. The correlation between
 
 The question is: how much of the correlation is (1) and how much is (2)?
 
-The test-optional natural experiment (Chapter 2) provides evidence. When test scores are removed from admissions decisions, low-SES students admitted without scores perform comparably to high-SES students admitted with high scores. This suggests that the score gap is substantially attributable to gauge violation (component 2) rather than genuine manifold position difference (component 1). If the gap were primarily genuine, removing the test would degrade the predictive accuracy of admissions --- low-SES admits would underperform. They do not.
+The test-optional natural experiment (Chapter 2) provides evidence. When test scores are removed from admissions decisions, students admitted without scores --- disproportionately low-SES students --- perform comparably to students admitted with scores. This suggests that the score gap is substantially attributable to gauge violation (component 2) rather than genuine manifold position difference (component 1). If the gap were primarily genuine, removing the test would degrade the predictive accuracy of admissions --- admits without scores would underperform. They do not.
 
 ## 14.6 Test-Optional as Partial Gauge Fix
 
@@ -112,7 +112,7 @@ The admissions office saw 1180. It did not see the gauge violation. It saw a num
 
 ## Summary
 
-This chapter has proved the Standardized Testing Gauge Violation Theorem: standardized test scores vary systematically with SES, language, format, and context in ways that violate the Assessment Gauge Invariance condition. The gauge violation tensor has been estimated for the SAT, with total violations of 200--500 points for multiply-disadvantaged students. The SAT-income correlation is partially attributable to gauge violation rather than genuine manifold position difference, as evidenced by the test-optional natural experiment. Test-optional admissions is a negative solution (removing bad data); the positive solution is gauge-invariant assessment designed from the start to satisfy all five invariance conditions. The chapter provides design criteria for gauge-invariant standardized assessment.
+This chapter has stated and argued for the Standardized Testing Gauge Violation Theorem: standardized test scores vary systematically with SES, language, format, and context in ways that violate the Assessment Gauge Invariance condition. The gauge violation tensor has been estimated for the SAT, with total violations of 300--500 points for multiply-disadvantaged students. The SAT-income correlation is partially attributable to gauge violation rather than genuine manifold position difference, as evidenced by the test-optional natural experiment. Test-optional admissions is a negative solution (removing bad data); the positive solution is gauge-invariant assessment designed from the start to satisfy all five invariance conditions. The chapter provides design criteria for gauge-invariant standardized assessment.
 
 ---
 

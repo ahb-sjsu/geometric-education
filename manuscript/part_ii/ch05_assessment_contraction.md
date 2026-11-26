@@ -91,7 +91,7 @@ $$\mathbf{x}_{\text{Alex}}(4) \approx (0.70, \; 0.90, \; 0.80, \; 0.75, \; 0.85,
 
 Moderate $d_1$. Strong $d_2$ through $d_6$.
 
-The GPA says Ethan (3.7) is a better student than Alex (3.2). The Euclidean distance from the origin says $\|\mathbf{x}_{\text{Ethan}}\| \approx 1.34$ and $\|\mathbf{x}_{\text{Alex}}\| \approx 1.87$. Alex is further from ignorance on the full manifold. But the scalar says the opposite.
+The GPA says Ethan (3.7) is a better student than Alex (3.2). The Euclidean distance from the origin says $\|\mathbf{x}_{\text{Ethan}}\| \approx 1.33$ and $\|\mathbf{x}_{\text{Alex}}\| \approx 1.93$. Alex is further from ignorance on the full manifold. But the scalar says the opposite.
 
 ## 5.5 Corollaries
 
@@ -137,7 +137,7 @@ Alex and Ethan graduate in the same ceremony. Ethan graduates with a 3.7 GPA and
 
 The dean reads the honors list. Alex's name is not on it. Alex sits in the audience and watches Ethan receive a medal.
 
-Alex can rebuild a transmission from parts, design a structural support that meets code requirements, explain resonance phenomena using both physical intuition and formal mathematics, teach a struggling classmate to use a lathe by adjusting instruction in real time, and generate creative solutions to engineering problems that instructors had not considered. Alex has higher $d_2$, $d_3$, $d_4$, $d_5$, and $d_6$ than Ethan. Alex's distance from the origin on the full learner manifold is $\|\mathbf{x}_{\text{Alex}}\| \approx 1.87$, compared to Ethan's $\|\mathbf{x}_{\text{Ethan}}\| \approx 1.34$.
+Alex can rebuild a transmission from parts, design a structural support that meets code requirements, explain resonance phenomena using both physical intuition and formal mathematics, teach a struggling classmate to use a lathe by adjusting instruction in real time, and generate creative solutions to engineering problems that instructors had not considered. Alex has higher $d_2$, $d_3$, $d_4$, $d_5$, and $d_6$ than Ethan. Alex's distance from the origin on the full learner manifold is $\|\mathbf{x}_{\text{Alex}}\| \approx 1.93$, compared to Ethan's $\|\mathbf{x}_{\text{Ethan}}\| \approx 1.33$.
 
 The manifold says Alex is the stronger graduate. The scalar says the opposite. And the scalar is what the world sees.
 

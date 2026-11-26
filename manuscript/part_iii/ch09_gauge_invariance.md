@@ -128,7 +128,7 @@ Two weeks later, Professor Vasquez gives Alex an oral exam on the same material.
 
 The 30-point gap between the two assessments is not measurement noise. It is gauge violation: the assessment changed under format transformation (multiple choice to oral), time transformation (two weeks later, lower stress), and context transformation (high-stakes auditorium to low-stakes office). Alex's understanding did not change. The instrument did.
 
-The gauge violation tensor for this pair of assessments has an entry of approximately $V_{\text{format}, 1} \approx 0.30$ (on a normalized $[0, 1]$ scale), indicating that the format transformation alone accounts for a 30-point shift in measured performance.
+The gauge violation tensor for this pair of assessments has an entry of approximately $V_{\text{format}, 1} \approx 0.30$ (on a normalized $[0, 1]$ scale), if the whole 30-point shift in measured performance is attributed to the format transformation. The time and context transformations changed with it, so this pair of assessments bounds the three entries together and does not separate them.
 
 ---
 

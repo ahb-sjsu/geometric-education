@@ -111,7 +111,7 @@ The decomposition is practically useful: it identifies which sources of deviatio
 
 ## 13.5 Alex Computes the Bond Index
 
-Alex, now a graduate student in education, designs a study using institutional data from three semesters of introductory engineering courses at the university. Alex has access to de-identified LMS data (Canvas interaction logs), transcript data (course sequences and grades), and demographic data (first-generation status, high school type, SES indicators).
+This section is an illustrative scenario: the study and its numbers are hypothetical, and no such study has been run (Section 18.5). Alex, now a graduate student in education, designs a study using institutional data from three semesters of introductory engineering courses at the university. Alex has access to de-identified LMS data (Canvas interaction logs), transcript data (course sequences and grades), and demographic data (first-generation status, high school type, SES indicators).
 
 Alex clusters student trajectories by LMS interaction patterns and identifies four distinct learner profiles --- all with average GPAs within 0.2 of each other:
 
@@ -120,7 +120,7 @@ Alex clusters student trajectories by LMS interaction patterns and identifies fo
 - **Profile 3 (Metacognitive):** High $d_3$, moderate $d_1$ and $d_2$. These students use study groups, seek help early, and show steady improvement. Their exam scores improve over the semester.
 - **Profile 4 (Creative):** High $d_6$, variable $d_1$ and $d_2$. These students propose original solutions on design projects but score inconsistently on standardized assessments.
 
-The GPA is identical across profiles ($\approx 3.0 \pm 0.2$). The learner states are geometrically distant: the average inter-profile distance on the estimated manifold is $\approx 0.65$ on a $[0, 1]$ scale. The GPA Irrecoverability Theorem, confirmed empirically.
+The GPA is identical across profiles ($\approx 3.0 \pm 0.2$). The learner states are geometrically distant: the average inter-profile distance on the estimated manifold is $\approx 0.65$ on a $[0, 1]$ scale. The GPA Irrecoverability Theorem, illustrated in Alex's hypothetical data.
 
 Alex then computes the Bond Index for the engineering program, stratified by first-generation status:
 
@@ -134,7 +134,7 @@ Alex decomposes the Bond Index:
 - $\text{BI}_{\text{access}} = 15\%$ of total (fewer support services available to first-generation students)
 - $\text{BI}_{\text{residual}} = 10\%$
 
-The decomposition suggests that the most impactful intervention is improved heuristic field support (mentoring, proactive advising, navigational workshops) --- a finding that aligns with the educational literature on first-generation student support programs.
+The decomposition suggests that the most impactful intervention is improved heuristic field support (mentoring, proactive advising, navigational workshops) --- a hypothetical finding that aligns with the educational literature on first-generation student support programs.
 
 Alex presents the result to the dean. For the first time, "structural inequality in the engineering program" has a number. The number is 2.1. The number decomposes into actionable sources. The number is computed from data the university already collects. The political becomes empirical.
 
@@ -142,7 +142,7 @@ Alex presents the result to the dean. For the first time, "structural inequality
 
 ## Summary
 
-This chapter has defined, computed, and applied the Educational Bond Index --- the measure of structural inequality in education. The Bond Index quantifies the expected deviation between the student's geodesic and the policy-constrained path, capturing funding disparities, tracking effects, first-generation penalties, and demographic disparities in a single numerical framework. The computation uses trajectory data, metric estimates, and geodesic computations to produce a number that transforms "structural inequality" from a philosophical claim to an empirical measurement. The decomposition into access, heuristic, metric, and residual components identifies actionable sources of inequality. The Bond Index is the geometric framework's primary tool for educational equity analysis.
+This chapter has defined the Educational Bond Index, set out its computation, and illustrated its application with a hypothetical study --- the measure of structural inequality in education. The Bond Index quantifies the expected deviation between the student's geodesic and the policy-constrained path, capturing funding disparities, tracking effects, first-generation penalties, and demographic disparities in a single numerical framework. The computation uses trajectory data, metric estimates, and geodesic computations to produce a number that transforms "structural inequality" from a philosophical claim to an empirical measurement. The decomposition into access, heuristic, metric, and residual components identifies actionable sources of inequality. The Bond Index is the geometric framework's primary tool for educational equity analysis.
 
 ---
 

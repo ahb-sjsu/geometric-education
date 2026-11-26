@@ -82,6 +82,8 @@ Education is the domain where manifold growth is most dramatic, most observable,
 
 ## 17.6 Summary of Feedback to the General Theory
 
+*Note (2026-11-26). An earlier draft of this section named the dihedral group $D_4$ as the symmetry group that the general theory inherited from ethics. Geometric Ethics withdrew $D_4$ in its version 1.25: the two operations on the four Hohfeldian positions (the correlative and the negation) commute and generate the Klein four-group $V_4$, of order 4, and there is no quarter-turn. No statement in this volume depends on a quarter-turn or on a group of order 8; the only use is the cross-reference in the last sentence of this section, which now names $V_4$.*
+
 | Lesson | Source in Education | Extension to General Theory |
 |--------|-------------------|---------------------------|
 | Intergenerational heuristic transmission | Hidden curriculum, first-gen penalty | Heuristic genealogy as structural advantage |
@@ -90,7 +92,7 @@ Education is the domain where manifold growth is most dramatic, most observable,
 | Stakes/dimension severity ratio | SAT vs. classroom discussion | Formalized contraction severity measure |
 | Dynamic manifolds | Learning changes the manifold | Topology that grows with agent action |
 
-Each lesson extends the general theory by identifying a phenomenon that education makes visible but that exists, in weaker form, across all domains. The general theory inherits five extensions from education, just as it inherited the $D_4$ symmetry group from ethics, the moral injury accumulation theorem from medicine, and the parallel transport model of translation from communication.
+Each lesson extends the general theory by identifying a phenomenon that education makes visible but that exists, in weaker form, across all domains. The general theory inherits five extensions from education, just as it inherited the Klein four-group $V_4$ of the Hohfeldian positions from ethics, the moral injury accumulation theorem from medicine, and the parallel transport model of translation from communication.
 
 ---
 

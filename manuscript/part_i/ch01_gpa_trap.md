@@ -130,11 +130,11 @@ $$G(\mathbf{x}_{\text{Alex}}) = 0.60(0.45) + 0.25(0.85) + 0.05(0.70) + 0.05(0.80
 
 $$G(\mathbf{x}_{\text{Ethan}}) = 0.60(0.80) + 0.25(0.50) + 0.05(0.40) + 0.05(0.55) + 0.03(0.40) + 0.02(0.35) = 0.480 + 0.125 + 0.020 + 0.028 + 0.012 + 0.007 = 0.671$$
 
-On this weighting, Ethan's projected score is higher --- which explains why Ethan typically gets higher grades. But the GPA is not quite a linear projection; it is filtered through the grade-letter discretization and the specific exams in specific courses. With different courses (some more procedural, some with projects rather than exams), the projections can equalize. The point is not the specific numbers but the structural fact: two learner states that are far apart on the manifold --- $\|\mathbf{x}_{\text{Alex}} - \mathbf{x}_{\text{Ethan}}\| = \sqrt{(0.35)^2 + (0.35)^2 + (0.30)^2 + (0.25)^2 + (0.35)^2 + (0.30)^2} \approx 0.77$ --- can project to the same scalar.
+On this weighting, Ethan's projected score is higher --- which explains why Ethan typically gets higher grades. But the GPA is not quite a linear projection; it is filtered through the grade-letter discretization and the specific exams in specific courses. With different courses (some more procedural, some with projects rather than exams), the projections can equalize. The point is not the specific numbers but the structural fact: two learner states that are far apart on the manifold --- $\|\mathbf{x}_{\text{Alex}} - \mathbf{x}_{\text{Ethan}}\| = \sqrt{(0.35)^2 + (0.35)^2 + (0.30)^2 + (0.25)^2 + (0.35)^2 + (0.30)^2} \approx 0.78$ --- can project to the same scalar.
 
 [Figure 1.1: The 3.5 Decomposition. Alex's learner tensor and Ethan's learner tensor visualized as radar plots in six dimensions. The shapes are nearly complementary --- Alex is strong where Ethan is weak and vice versa. The GPA contraction collapses both shapes to a single number, erasing the difference.]
 
-The Euclidean distance between their learner states is 0.77 on a $[0, 1]$ scale --- they are about as different as two learner states can be while producing the same GPA. The GPA is identical. The students are orthogonal.
+The Euclidean distance between their learner states is 0.78 on a $[0, 1]$ scale --- they are about as different as two learner states can be while producing the same GPA. The GPA is identical. The students are orthogonal.
 
 ## 1.4 What the Contraction Destroys
 
@@ -142,7 +142,7 @@ The 3.5 decomposition illustrates a specific instance of a general mathematical 
 
 ### 1.4.1 Metric Structure: The Distance Between Learner States
 
-On the full learner manifold, Alex and Ethan are far apart: $\|\mathbf{x}_{\text{Alex}} - \mathbf{x}_{\text{Ethan}}\| \approx 0.77$. On the GPA line, they are at the same point: $|G(\mathbf{x}_{\text{Alex}}) - G(\mathbf{x}_{\text{Ethan}})| = 0$. The metric structure of the learner manifold --- the distance between states that determines how similar two students actually are --- is destroyed by the projection.
+On the full learner manifold, Alex and Ethan are far apart: $\|\mathbf{x}_{\text{Alex}} - \mathbf{x}_{\text{Ethan}}\| \approx 0.78$. On the GPA line, they are at the same point: both transcripts read 3.5, and even the illustrative linear weighting of Section 1.3 separates them by only $|G(\mathbf{x}_{\text{Alex}}) - G(\mathbf{x}_{\text{Ethan}})| = 0.671 - 0.593 = 0.078$. The metric structure of the learner manifold --- the distance between states that determines how similar two students actually are --- is destroyed by the projection.
 
 This matters because educational decisions depend on distance. "Is this student ready for Calculus II?" is a distance question: how far is the student's current state from the prerequisite region on the manifold? "Are these two students in the same study group well-matched?" is a distance question: how close are their learner states? "Will this student succeed in graduate school?" is a distance question: how far is the student from the goal region? All of these questions require the full metric. The GPA provides a metric on a one-dimensional line that bears no guaranteed relationship to the metric on the manifold.
 

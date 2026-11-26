@@ -111,7 +111,7 @@ Alex's path was longer, more curved, and traversed regions of high curvature tha
 
 Ethan's path was a near-geodesic: low curvature throughout, strong heuristic field from parents and counselors, well-matched metric (the curriculum was designed for students like Ethan), no remediation needed, no gauge violations to overcome.
 
-Alex's final position on the manifold is further from the origin than Ethan's: $\|\mathbf{x}_{\text{Alex}}\| \approx 1.87$ vs. $\|\mathbf{x}_{\text{Ethan}}\| \approx 1.34$. Alex has higher $d_3$ (metacognition, developed through navigating without a heuristic), higher $d_5$ (transfer, developed through necessity and the engine-DE connection), higher $d_4$ (motivation, forged by overcoming obstacles), and higher $d_2$ (procedural skill, maintained throughout).
+Alex's final position on the manifold is further from the origin than Ethan's: $\|\mathbf{x}_{\text{Alex}}\| \approx 1.93$ vs. $\|\mathbf{x}_{\text{Ethan}}\| \approx 1.33$. Alex has higher $d_3$ (metacognition, developed through navigating without a heuristic), higher $d_5$ (transfer, developed through necessity and the engine-DE connection), higher $d_4$ (motivation, forged by overcoming obstacles), and higher $d_2$ (procedural skill, maintained throughout).
 
 But Alex's GPA is lower: 3.2 vs. Ethan's 3.7. The scalar says Ethan is the better graduate. The manifold says the opposite. No employer, no graduate school, no scholarship committee will ever see the manifold.
 

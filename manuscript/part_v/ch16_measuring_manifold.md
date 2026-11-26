@@ -48,7 +48,7 @@ The empirical question is: can we infer the manifold's metric from these observe
 
 ### 16.2.4 Knowledge Space Theory
 
-**Method.** Apply Doignon and Falmagne's (1999) knowledge space theory to model the learner's knowledge state as a subset of a partially ordered set of skills. The knowledge space is a simplicial complex --- a discretized version of the learner manifold.
+**Method.** Apply Doignon and Falmagne's (1999) knowledge space theory[^1] to model the learner's knowledge state as a subset of a partially ordered set of skills. The knowledge space is a simplicial complex --- a discretized version of the learner manifold.
 
 **What it measures.** Knowledge space theory captures the prerequisite structure of the manifold: which knowledge states are accessible from which, and in what order. The partial ordering defines the connectivity of the manifold. The surmise relation (the prerequisite structure) defines the boundary architecture.
 
@@ -108,11 +108,11 @@ The geometric framework for education generates six falsifiable predictions, eac
 
 ## 16.4 Alex's Study
 
-Alex, now a doctoral student in education, designs a study using LMS data from three semesters of introductory engineering courses. The study tests Prediction 16.3.1 (GPA non-injectivity) and Prediction 16.3.4 (first-generation heuristic deficit).
+This section is an illustrative scenario: the study and its results are hypothetical, and the predictions of Section 16.3 have not been tested (Section 18.1). Alex, now a doctoral student in education, designs a study using LMS data from three semesters of introductory engineering courses. The study tests Prediction 16.3.1 (GPA non-injectivity) and Prediction 16.3.4 (first-generation heuristic deficit).
 
-The results confirm both predictions. Students with identical GPAs cluster into four distinct profiles with significantly different trajectories and different performance on dimension-specific assessments. First-generation students show 1.4 additional semesters to degree and 2.3x the course-change frequency of continuing-generation students, after controlling for GPA and SAT score.
+In the scenario, the hypothetical results agree with both predictions. Students with identical GPAs cluster into four distinct profiles with significantly different trajectories and different performance on dimension-specific assessments. First-generation students show 1.4 additional semesters to degree and 2.3x the course-change frequency of continuing-generation students, after controlling for GPA and SAT score.
 
-The GPA Irrecoverability Theorem is confirmed empirically: the scalar cannot distinguish learner states that the trajectory data reveals as geometrically distant.
+This is what an empirical confirmation of the GPA Irrecoverability Theorem would look like: the scalar cannot distinguish learner states that the trajectory data reveals as geometrically distant.
 
 ---
 
